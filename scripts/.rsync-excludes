@@ -1,0 +1,10 @@
+# exclude any files that should not be uploaded to the webserver
+- .DS_Store
+- .listing
+- .git*
+- .env*
+- composer.json
+- composer.lock
+- wp-content/plugins/crayon-syntax-highlighter/log.txt
+- wp-content/upgrade
+- wp-content/uploads

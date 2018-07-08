@@ -1,0 +1,4 @@
+open ftp://deb4664@ftp.halfje-bruin.nl/public_html/
+mirror -R --verbose --delete --no-perms -X build.xml -X composer.* -X .env* -X .htaccess -X .externalToolBuilders -X .rsync-excludes -X .lftp-mirror -X .git/ -X .git* -X .settings/ -X .project -X .DS_Store -X .listing -X app/uploads/ -X app/upgrade/ -X app/backup-*/ -X app/backupwordpress-*/ .
+quit 0
+

@@ -1,0 +1,22 @@
+# General files
+.DS_Store
+
+# Ignore Composer installed files
+wwwroot/wp
+wwwroot/wp-content/vendor
+
+# Configuration files
+wwwroot/.env
+
+# Uploads, etc
+wwwroot/wp-content/uploads
+wwwroot/wp-content/upgrade
+
+# Plugins
+wwwroot/wp-content/plugins/*
+!wwwroot/wp-content/plugins/.gitkeep
+
+# Themes
+wwwroot/wp-content/themes/*
+!wwwroot/wp-content/themes/.gitkeep
+!wwwroot/wp-content/themes/halfje-bruin

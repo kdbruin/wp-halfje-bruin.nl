@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Series WordPress Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-05 00:02-0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Kees de Bruin <halfje.bruin@gmail.com>\n"
+"Language-Team:  <justin@justintadlock.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_x:1,2c;_n:1,2;_n\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl_NL\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/class-widget-list-posts.php:25
+msgid "Displays a list of posts within a series."
+msgstr "Toon een lijst van berichten van een serie."
+
+#: inc/class-widget-list-posts.php:37
+msgid "Series: List Posts"
+msgstr "Series: Berichten"
+
+#: inc/class-widget-list-posts.php:109
+msgid "You need at least one series of posts to use this widget."
+msgstr ""
+"Je hebt tenminste één serie van berichten nodig om deze widget te gebruiken."
+
+#: inc/class-widget-list-posts.php:118 inc/taxonomies.php:46
+#: inc/taxonomies.php:47 inc/taxonomies.php:48 inc/taxonomies.php:49
+msgid "Series"
+msgstr "Series"
+
+#: inc/class-widget-list-posts.php:130 inc/class-widget-list-related.php:123
+msgid "ID"
+msgstr "ID"
+
+#: inc/class-widget-list-posts.php:131 inc/class-widget-list-related.php:124
+msgid "Author"
+msgstr "Auteur"
+
+#: inc/class-widget-list-posts.php:132 inc/class-widget-list-related.php:125
+msgid "None"
+msgstr "Geen"
+
+#: inc/class-widget-list-posts.php:133 inc/class-widget-list-related.php:126
+msgid "Title"
+msgstr "Titel"
+
+#: inc/class-widget-list-posts.php:134 inc/class-widget-list-related.php:127
+msgid "Slug"
+msgstr "Slug"
+
+#: inc/class-widget-list-posts.php:135 inc/class-widget-list-related.php:128
+msgid "Date"
+msgstr "Datum"
+
+#: inc/class-widget-list-posts.php:136 inc/class-widget-list-related.php:129
+msgid "Date Modified"
+msgstr "Datum Gewijzigd"
+
+#: inc/class-widget-list-posts.php:137 inc/class-widget-list-related.php:130
+msgid "Random"
+msgstr "Willekeurig"
+
+#: inc/class-widget-list-posts.php:138 inc/class-widget-list-related.php:131
+msgid "Comment Count"
+msgstr "Aantal Reacties"
+
+#: inc/class-widget-list-posts.php:143 inc/class-widget-list-related.php:136
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: inc/class-widget-list-posts.php:144 inc/class-widget-list-related.php:137
+msgid "Descending"
+msgstr "Aflopend"
+
+#: inc/class-widget-list-posts.php:150 inc/class-widget-list-related.php:143
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/class-widget-list-posts.php:155
+msgid "Series:"
+msgstr "Series:"
+
+#: inc/class-widget-list-posts.php:164 inc/class-widget-list-related.php:148
+msgid "Order By:"
+msgstr "Sorteer:"
+
+#: inc/class-widget-list-posts.php:173 inc/class-widget-list-related.php:157
+msgid "Order:"
+msgstr "Volgorde:"
+
+#: inc/class-widget-list-posts.php:182 inc/class-widget-list-related.php:166
+msgid "Limit:"
+msgstr "Limiet:"
+
+#: inc/class-widget-list-related.php:25
+msgid "Displays a list of posts within the current post's series."
+msgstr "Toon een lijst van berichten uit de serie van het huidige bericht."
+
+#: inc/class-widget-list-related.php:37
+msgid "Series: List Related"
+msgstr "Series: Gerelateerd"
+
+#: inc/class-widget-list-related.php:112
+msgid "Articles in this series"
+msgstr "Berichten in deze serie"
+
+#: inc/taxonomies.php:50
+msgid "Search Series"
+msgstr "Zoek Series"
+
+#: inc/taxonomies.php:51
+msgid "Popular Series"
+msgstr "Populaire Series"
+
+#: inc/taxonomies.php:52
+msgid "All Series"
+msgstr "Alle Series"
+
+#: inc/taxonomies.php:53
+msgid "Edit Series"
+msgstr "Bewerk Serie"
+
+#: inc/taxonomies.php:54
+msgid "View Series"
+msgstr "Toon Serie"
+
+#: inc/taxonomies.php:55
+msgid "Update Series"
+msgstr "Serie Bijwerken"
+
+#: inc/taxonomies.php:56
+msgid "Add New Series"
+msgstr "Nieuwe Serie Toevoegen"
+
+#: inc/taxonomies.php:57
+msgid "New Series Name"
+msgstr "Naam Nieuwe Serie"
+
+#: inc/taxonomies.php:58
+msgid "Separate series with commas"
+msgstr "Scheidt series met komma's"
+
+#: inc/taxonomies.php:59
+msgid "Add or remove series"
+msgstr "Voeg toe of verwijder series"
+
+#: inc/taxonomies.php:60
+msgid "Choose from the most used series"
+msgstr "Kies uit de meest gebruikte series"
