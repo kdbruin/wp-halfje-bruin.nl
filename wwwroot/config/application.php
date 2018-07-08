@@ -67,6 +67,3 @@ define('DISALLOW_FILE_EDIT', true);
 if (!defined('ABSPATH')) {
   define('ABSPATH', $root_dir . '/wp/');
 }
-
-print WP_HOME . '\n';
-print WP_SITEURL . '\n';
