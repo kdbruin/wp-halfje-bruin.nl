@@ -23,6 +23,7 @@
         "rarst/update-blocker": "^1.1",
         "wpackagist-plugin/gutenberg": "^3.5.0",
         "wpackagist-theme/gridsby": "*",
+        "wpackagist-theme/twentyseventeen": "*",
         "wpackagist-theme/understrap": "*"
     },
     "require-dev": {
