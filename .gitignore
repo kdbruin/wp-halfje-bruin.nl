@@ -1,22 +1,29 @@
 # General files
 .DS_Store
 
+# Bower, Npm
+bower_components
+node_modules
+
 # Ignore Composer installed files
 wwwroot/wp
-wwwroot/wp-content/vendor
+wwwroot/vendor
 
 # Configuration files
 wwwroot/.env
 
 # Uploads, etc
-wwwroot/wp-content/uploads
-wwwroot/wp-content/upgrade
+wwwroot/app/uploads
+wwwroot/app/upgrade
 
 # Plugins
-wwwroot/wp-content/plugins/*
-!wwwroot/wp-content/plugins/.gitkeep
+wwwroot/app/plugins/*
+!wwwroot/app/plugins/.gitkeep
 
 # Themes
-wwwroot/wp-content/themes/*
-!wwwroot/wp-content/themes/.gitkeep
-!wwwroot/wp-content/themes/halfje-bruin
+wwwroot/app/themes/*
+!wwwroot/app/themes/.gitkeep
+!wwwroot/app/themes/halfje-bruin
+!wwwroot/app/themes/halfje-bruin-gridsby
+!wwwroot/app/themes/halfje-bruin-understrap
+!wwwroot/app/themes/wordpress-hyde-theme

@@ -22,7 +22,7 @@ if (file_exists($env_config)) {
 /**
  * Custom Content Directory
  */
-define('CONTENT_DIR', '/wp-content');
+define('CONTENT_DIR', '/app');
 define('WP_CONTENT_DIR', $root_dir . CONTENT_DIR);
 define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
 

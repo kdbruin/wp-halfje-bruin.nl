@@ -1,38 +1,50 @@
 {
-    "name"        : "halfje-bruin/halfje-bruin",
-    "description" : "Halfje-Bruin WordPress site",
-    "authors"     : [
+    "name": "halfje-bruin/halfje-bruin",
+    "description": "Halfje-Bruin WordPress site",
+    "authors": [
         {
-            "name"    : "Kees de Bruin",
+            "name": "Kees de Bruin",
             "homepage": "https://www.halfje-bruin.nl/"
         }
     ],
-    "type"        : "project",
+    "type": "project",
     "repositories": [
         {
             "type": "composer",
-            "url" : "https://wpackagist.org"
+            "url": "https://wpackagist.org"
         }
     ],
-    "config"      : {
-        "vendor-dir": "wp-content/vendor"
+    "config": {
+        "vendor-dir": "vendor"
     },
-    "require"     : {
-        "johnpbloch/wordpress"            : ">=4.9",
-        "rarst/fragment-cache"            : "^1.3",
-        "rarst/update-blocker"            : "^1.1"
+    "require": {
+        "vlucas/phpdotenv": "^1.0.6",
+        "johnpbloch/wordpress": ">=4.9",
+        "rarst/update-blocker": "^1.1",
+        "wpackagist-plugin/gutenberg": "^3.5.0",
+        "wpackagist-theme/gridsby": "*",
+        "wpackagist-theme/understrap": "*"
     },
-    "require-dev" : {
-        "rarst/laps"                                  : "^1.4.4",
-        "rarst/toolbar-theme-switcher"                : "^1.5",
-        "vlucas/phpdotenv"                            : "^1.0.6",
-        "wpackagist-plugin/a-fresher-cache"           : "*",
-        "wpackagist-plugin/core-control"              : "*",
-        "wpackagist-plugin/monster-widget"            : "*",
-        "wpackagist-plugin/theme-check"               : "*",
-        "wpackagist-theme/twentyseventeen"            : "*"
+    "require-dev": {
+        "rarst/laps": "^1.4.4",
+        "rarst/toolbar-theme-switcher": "^1.5",
+        "wpackagist-plugin/a-fresher-cache": "*",
+        "wpackagist-plugin/core-control": "*",
+        "wpackagist-plugin/monster-widget": "*",
+        "wpackagist-plugin/theme-check": "*"
     },
-    "extra"       : {
-        "wordpress-install-dir": "wp"
+    "extra": {
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "app/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ],
+            "app/mu-plugins/{$name}/": [
+                "type:wordpress-muplugin"
+            ],
+            "app/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
+        }
     }
 }
