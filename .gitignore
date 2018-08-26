@@ -1,6 +1,9 @@
 # General files
 .DS_Store
 
+# Development stuff
+scripts/deploy-*.log
+
 # Bower, Npm
 bower_components
 node_modules
@@ -16,6 +19,9 @@ wwwroot/.env
 wwwroot/app/uploads
 wwwroot/app/upgrade
 
+# Translations
+wwwroot/app/languages/**/*-backup*.*
+
 # Plugins
 wwwroot/app/plugins/*
 !wwwroot/app/plugins/.gitkeep
@@ -23,7 +29,4 @@ wwwroot/app/plugins/*
 # Themes
 wwwroot/app/themes/*
 !wwwroot/app/themes/.gitkeep
-!wwwroot/app/themes/halfje-bruin
 !wwwroot/app/themes/halfje-bruin-gridsby
-!wwwroot/app/themes/halfje-bruin-understrap
-!wwwroot/app/themes/wordpress-hyde-theme

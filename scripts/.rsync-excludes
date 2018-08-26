@@ -1,10 +1,28 @@
-# exclude any files that should not be uploaded to the webserver
+# RSYNC excludes
+
+# common files
 - .DS_Store
 - .listing
-- .git*
+
+# development files
 - .env*
+- .git*
+- .project
 - composer.json
 - composer.lock
-- wp-content/plugins/crayon-syntax-highlighter/log.txt
-- wp-content/upgrade
-- wp-content/uploads
+- app/languages/**/*-backup*.*
+- app/plugins/laps
+- app/plugins/a-fresher-cache
+- app/plugins/core-control
+- app/plugins/loco-translate
+- app/plugins/monster-widget
+- app/plugins/php-compatibility-checker
+- app/plugins/theme-check
+- app/plugins/wordpress-importer
+
+# generated files
+- .htaccess
+- app/backupwordpress-*-backups
+- app/plugins/crayon-syntax-highlighter/log.txt
+- app/upgrade
+- app/uploads

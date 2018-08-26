@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "466f78b1514e1e3d4eed22c56c8ba846",
+    "content-hash": "30c0dd0316da2a231c3b89480fbe0145",
     "packages": [
         {
             "name": "composer/installers",
@@ -255,194 +255,18 @@
             "time": "2018-01-29T14:49:29+00:00"
         },
         {
-            "name": "markjaquith/wp-tlc-transients",
-            "version": "1.0",
+            "name": "kdb/hb-plugin",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/markjaquith/WP-TLC-Transients.git",
-                "reference": "bdbe0691db6adaf08af0dee6c70ebebe881633d8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/markjaquith/WP-TLC-Transients/zipball/bdbe0691db6adaf08af0dee6c70ebebe881633d8",
-                "reference": "bdbe0691db6adaf08af0dee6c70ebebe881633d8",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "class-tlc-transient.php",
-                    "class-tlc-transient-update-server.php"
-                ],
-                "files": [
-                    "functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Mark Jaquith",
-                    "homepage": "http://markjaquith.com/"
-                }
-            ],
-            "description": "A WP transients interface with support for soft-expiration, background updating of the transients.",
-            "homepage": "https://github.com/markjaquith/WP-TLC-Transients",
-            "keywords": [
-                "cache",
-                "wordpress"
-            ],
-            "time": "2013-05-07T18:12:10+00:00"
-        },
-        {
-            "name": "pimple/pimple",
-            "version": "v3.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
-                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
-                "shasum": ""
+                "url": "git@git.home.lan:base/hb-plugin.git",
+                "reference": "2958306fe7ffd441f3395c00cbc93de9c2c9c087"
             },
             "require": {
-                "php": ">=5.3.0",
-                "psr/container": "^1.0"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "^3.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Pimple": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                }
-            ],
-            "description": "Pimple, a simple Dependency Injection Container",
-            "homepage": "http://pimple.sensiolabs.org",
-            "keywords": [
-                "container",
-                "dependency injection"
-            ],
-            "time": "2018-01-21T07:42:36+00:00"
-        },
-        {
-            "name": "psr/container",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/container.git",
-                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
-                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\Container\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Common Container Interface (PHP FIG PSR-11)",
-            "homepage": "https://github.com/php-fig/container",
-            "keywords": [
-                "PSR-11",
-                "container",
-                "container-interface",
-                "container-interop",
-                "psr"
-            ],
-            "time": "2017-02-14T16:28:37+00:00"
-        },
-        {
-            "name": "rarst/fragment-cache",
-            "version": "1.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Rarst/fragment-cache.git",
-                "reference": "c9c4fec119342caf4fca6d3adb2d55dc5c70c29c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Rarst/fragment-cache/zipball/c9c4fec119342caf4fca6d3adb2d55dc5c70c29c",
-                "reference": "c9c4fec119342caf4fca6d3adb2d55dc5c70c29c",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "markjaquith/wp-tlc-transients": "~1.0",
-                "php": ">=5.3",
-                "pimple/pimple": "~3.0"
-            },
-            "suggest": {
-                "rarst/update-blocker": "Prevents invalid updates from official repositories"
+                "composer/installers": "*"
             },
             "type": "wordpress-plugin",
-            "autoload": {
-                "classmap": [
-                    "php/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Andrey Savchenko",
-                    "email": "contact@rarst.net",
-                    "homepage": "http://www.Rarst.net/"
-                }
-            ],
-            "description": "WordPress plugin for partial and async caching of heavy front-end elements.",
-            "homepage": "https://github.com/Rarst/fragment-cache",
-            "keywords": [
-                "cache",
-                "performance",
-                "wordpress"
-            ],
-            "time": "2016-12-11T19:27:14+00:00"
+            "time": "2014-08-22T18:23:32+00:00"
         },
         {
             "name": "rarst/update-blocker",
@@ -481,6 +305,232 @@
             "time": "2016-09-03T18:23:52+00:00"
         },
         {
+            "name": "vlucas/phpdotenv",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "0cac554ce06277e33ddf9f0b7ade4b8bbf2af3fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/0cac554ce06277e33ddf9f0b7ade4b8bbf2af3fa",
+                "reference": "0cac554ce06277e33ddf9f0b7ade4b8bbf2af3fa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Dotenv": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "homepage": "http://github.com/vlucas/phpdotenv",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2015-05-30T15:59:26+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "4.4.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "tags/4.4.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.12.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-gutenberg",
+            "version": "1.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
+                "reference": "tags/1.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.1.6.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-gutenberg/"
+        },
+        {
+            "name": "wpackagist-plugin/atomic-blocks",
+            "version": "1.3.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/atomic-blocks/",
+                "reference": "tags/1.3.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/atomic-blocks.1.3.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/atomic-blocks/"
+        },
+        {
+            "name": "wpackagist-plugin/backupwordpress",
+            "version": "3.6.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/backupwordpress/",
+                "reference": "tags/3.6.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/backupwordpress.3.6.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/backupwordpress/"
+        },
+        {
+            "name": "wpackagist-plugin/classic-smilies",
+            "version": "1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/classic-smilies/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/classic-smilies.zip?timestamp=1452078138",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/classic-smilies/"
+        },
+        {
+            "name": "wpackagist-plugin/crayon-syntax-highlighter",
+            "version": "2.8.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/crayon-syntax-highlighter/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/crayon-syntax-highlighter.zip?timestamp=1462880237",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/crayon-syntax-highlighter/"
+        },
+        {
+            "name": "wpackagist-plugin/disqus-comment-system",
+            "version": "3.0.16",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disqus-comment-system/",
+                "reference": "tags/3.0.16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.3.0.16.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disqus-comment-system/"
+        },
+        {
+            "name": "wpackagist-plugin/enable-media-replace",
+            "version": "3.2.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/enable-media-replace/",
+                "reference": "tags/3.2.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.2.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/enable-media-replace/"
+        },
+        {
+            "name": "wpackagist-plugin/force-regenerate-thumbnails",
+            "version": "2.0.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/force-regenerate-thumbnails/",
+                "reference": "tags/2.0.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/force-regenerate-thumbnails.2.0.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/force-regenerate-thumbnails/"
+        },
+        {
             "name": "wpackagist-plugin/gutenberg",
             "version": "3.6.2",
             "source": {
@@ -501,6 +551,106 @@
             "homepage": "https://wordpress.org/plugins/gutenberg/"
         },
         {
+            "name": "wpackagist-plugin/post-snippets",
+            "version": "3.0.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/post-snippets/",
+                "reference": "tags/3.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/post-snippets.3.0.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/post-snippets/"
+        },
+        {
+            "name": "wpackagist-plugin/ricg-responsive-images",
+            "version": "3.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ricg-responsive-images/",
+                "reference": "tags/3.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ricg-responsive-images.3.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ricg-responsive-images/"
+        },
+        {
+            "name": "wpackagist-plugin/series",
+            "version": "2.0.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/series/",
+                "reference": "tags/2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/series.2.0.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/series/"
+        },
+        {
+            "name": "wpackagist-plugin/shortcodes-ultimate",
+            "version": "5.0.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/shortcodes-ultimate/",
+                "reference": "tags/5.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.5.0.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/shortcodes-ultimate/"
+        },
+        {
+            "name": "wpackagist-theme/atomic-blocks",
+            "version": "1.1.9",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/atomic-blocks/",
+                "reference": "1.1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/atomic-blocks.1.1.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/atomic-blocks/"
+        },
+        {
             "name": "wpackagist-theme/gridsby",
             "version": "1.2.9",
             "source": {
@@ -519,46 +669,6 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/gridsby/"
-        },
-        {
-            "name": "wpackagist-theme/twentyseventeen",
-            "version": "1.7",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/twentyseventeen/",
-                "reference": "1.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.7.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/twentyseventeen/"
-        },
-        {
-            "name": "wpackagist-theme/understrap",
-            "version": "0.8.6",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/understrap/",
-                "reference": "0.8.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/understrap.0.8.6.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/understrap/"
         }
     ],
     "packages-dev": [
@@ -656,47 +766,6 @@
             "time": "2017-07-05T18:45:39+00:00"
         },
         {
-            "name": "rarst/toolbar-theme-switcher",
-            "version": "1.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Rarst/toolbar-theme-switcher.git",
-                "reference": "a39b910fd092be540dbc694dfca5b62cf1175778"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Rarst/toolbar-theme-switcher/zipball/a39b910fd092be540dbc694dfca5b62cf1175778",
-                "reference": "a39b910fd092be540dbc694dfca5b62cf1175778",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "autoload": {
-                "classmap": [
-                    "php/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andrey Savchenko",
-                    "email": "contact@rarst.net",
-                    "homepage": "http://www.Rarst.net/"
-                }
-            ],
-            "description": "Adds WordPress toolbar menu that allows users to switch theme for themselves",
-            "homepage": "https://github.com/Rarst/toolbar-theme-switcher",
-            "keywords": [
-                "wordpress"
-            ],
-            "time": "2016-11-27T22:02:09+00:00"
-        },
-        {
             "name": "symfony/stopwatch",
             "version": "v2.8.44",
             "source": {
@@ -746,52 +815,6 @@
             "time": "2018-07-24T10:05:38+00:00"
         },
         {
-            "name": "vlucas/phpdotenv",
-            "version": "v1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "0cac554ce06277e33ddf9f0b7ade4b8bbf2af3fa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/0cac554ce06277e33ddf9f0b7ade4b8bbf2af3fa",
-                "reference": "0cac554ce06277e33ddf9f0b7ade4b8bbf2af3fa",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Dotenv": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD"
-            ],
-            "authors": [
-                {
-                    "name": "Vance Lucas",
-                    "email": "vance@vancelucas.com",
-                    "homepage": "http://www.vancelucas.com"
-                }
-            ],
-            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
-            "homepage": "http://github.com/vlucas/phpdotenv",
-            "keywords": [
-                "dotenv",
-                "env",
-                "environment"
-            ],
-            "time": "2015-05-30T15:59:26+00:00"
-        },
-        {
             "name": "wpackagist-plugin/a-fresher-cache",
             "version": "0.2.0",
             "source": {
@@ -832,6 +855,26 @@
             "homepage": "https://wordpress.org/plugins/core-control/"
         },
         {
+            "name": "wpackagist-plugin/loco-translate",
+            "version": "2.1.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/loco-translate/",
+                "reference": "tags/2.1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.1.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/loco-translate/"
+        },
+        {
             "name": "wpackagist-plugin/monster-widget",
             "version": "0.3",
             "source": {
@@ -852,6 +895,26 @@
             "homepage": "https://wordpress.org/plugins/monster-widget/"
         },
         {
+            "name": "wpackagist-plugin/php-compatibility-checker",
+            "version": "1.4.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/php-compatibility-checker/",
+                "reference": "tags/1.4.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/php-compatibility-checker.1.4.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/php-compatibility-checker/"
+        },
+        {
             "name": "wpackagist-plugin/theme-check",
             "version": "20160523.1",
             "source": {
@@ -870,11 +933,33 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/theme-check/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.6.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.6.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "kdb/hb-plugin": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

@@ -1,0 +1,1052 @@
+msgid ""
+msgstr ""
+"Version: 1.6.1\n"
+"Revision: 0\n"
+"Modified: 1\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-26 08:41+0000\n"
+"PO-Revision-Date: 2018-08-26 08:48+0000\n"
+"Last-Translator: Kees de Bruin <halfje-bruin@gmail.com>\n"
+"Language-Team: Nederlands\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: install.php:20
+msgid "Gutenberg is not detected! Activate it or"
+msgstr "Gutenberg is niet gedetecteerd. Activeer of"
+
+#: install.php:21
+msgid "Install Gutenberg Now!"
+msgstr "Installeer Gutenberg Nu!"
+
+#: install.php:30
+msgid "We require at least Gutenberg version "
+msgstr "We verwachten ten minste Gutenberg versie "
+
+#: install.php:32
+msgid "Please update Gutenberg then comeback later!"
+msgstr "Update eerst Gutenberg en kom dan later terug!"
+
+#: incl/advanced-gutenberg-main.php:376 incl/advanced-gutenberg-main.php:543
+#: incl/advanced-gutenberg-main.php:681 incl/advanced-gutenberg-main.php:712
+msgid "No permission!"
+msgstr "Geen rechten!"
+
+#: incl/advanced-gutenberg-main.php:467
+#: incl/view/advanced-gutenberg-profile.php:283
+msgctxt "no user roles"
+msgid "None"
+msgstr "Geen"
+
+#: incl/advanced-gutenberg-main.php:476
+#: incl/view/advanced-gutenberg-profile.php:292
+msgid "No users found."
+msgstr "Geen gebruikers gevonden."
+
+#: incl/advanced-gutenberg-main.php:499
+msgid "First page"
+msgstr "Eerste pagina"
+
+#: incl/advanced-gutenberg-main.php:525
+#: incl/view/advanced-gutenberg-profile.php:348
+msgid "Last page"
+msgstr "Laatste pagina"
+
+#: incl/advanced-gutenberg-main.php:550 incl/advanced-gutenberg-main.php:717
+msgid "Invalid nonce token!"
+msgstr "Ongeldig nonce token!"
+
+#: incl/advanced-gutenberg-main.php:567
+msgid "New class"
+msgstr "Nieuwe klasse"
+
+#: incl/advanced-gutenberg-main.php:568
+msgid "new-class"
+msgstr "new-class"
+
+#: incl/advanced-gutenberg-main.php:686
+msgid "Fail to verify nonce!"
+msgstr "Verificatie nonce token gefaald!"
+
+#. Name of the plugin
+#: incl/advanced-gutenberg-main.php:937
+msgid "Advanced Gutenberg"
+msgstr "Advanced Gutenberg"
+
+#: incl/advanced-gutenberg-main.php:938
+msgid "Adv. Gutenberg"
+msgstr "Adv. Gutenberg"
+
+#: incl/advanced-gutenberg-main.php:979 incl/advanced-gutenberg-main.php:980
+#: incl/view/advanced-gutenberg-profiles.php:29
+msgid "Advanced Gutenberg Profiles"
+msgstr "Advanced Gutenberg Profielen"
+
+#: incl/advanced-gutenberg-main.php:981
+#: incl/view/advanced-gutenberg-profiles.php:35
+#: incl/view/advanced-gutenberg-profile.php:101
+msgid "New Profile"
+msgstr "Nieuw Profiel"
+
+#: incl/advanced-gutenberg-main.php:982
+msgid "Add New Profile"
+msgstr "Nieuw Profiel Toevoegen"
+
+#: incl/advanced-gutenberg-main.php:983
+#: incl/view/advanced-gutenberg-profile.php:91
+msgid "Edit Profile"
+msgstr "Profiel Bewerken"
+
+#: incl/advanced-gutenberg-main.php:984 incl/advanced-gutenberg-main.php:990
+#: incl/view/advanced-gutenberg-main-view.php:12
+msgid "Profiles"
+msgstr "Profielen"
+
+#: incl/advanced-gutenberg-main.php:985
+msgid "View Profile"
+msgstr "Toon Profiel"
+
+#: incl/advanced-gutenberg-main.php:986
+msgid "Search Profiles"
+msgstr "Zoek Profielen"
+
+#: incl/advanced-gutenberg-main.php:987
+msgid "No profiles found"
+msgstr "Geen profielen gevonden"
+
+#: incl/advanced-gutenberg-main.php:988
+msgid "No profiles found in trash"
+msgstr "Geen profielen gevonden in de prullenbak"
+
+#: incl/advanced-gutenberg-main.php:1257 incl/advanced-gutenberg-main.php:1258
+msgid "Block Config"
+msgstr "Blok Configuratie"
+
+#: incl/advanced-gutenberg-main.php:1308
+msgid "Header Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1311 incl/advanced-gutenberg-main.php:1366
+#: incl/advanced-gutenberg-main.php:1438 incl/advanced-gutenberg-main.php:1529
+#: incl/advanced-gutenberg-main.php:2173 incl/advanced-gutenberg-main.php:2188
+#: incl/advanced-gutenberg-main.php:2203 incl/advanced-gutenberg-main.php:2266
+msgid "Background Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1316 incl/advanced-gutenberg-main.php:1371
+#: incl/advanced-gutenberg-main.php:1433 incl/advanced-gutenberg-main.php:1524
+#: incl/advanced-gutenberg-main.php:2178 incl/advanced-gutenberg-main.php:2193
+#: incl/advanced-gutenberg-main.php:2208
+msgid "Text Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1321
+msgid "Header Icon"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1326 incl/advanced-gutenberg-main.php:1715
+msgid "Plus"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1330
+msgid "Plus Circle"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1334
+msgid "Plus Circle Outline"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1338
+msgid "Plus Square Outline"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1342
+msgid "Unfold Arrow"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1346
+msgid "Horizontal Dots"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1350
+msgid "Arrow Down"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1356
+msgid "Header Icon Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1363 incl/advanced-gutenberg-main.php:2200
+msgid "Body Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1378 incl/advanced-gutenberg-main.php:1445
+#: incl/advanced-gutenberg-main.php:2215
+msgid "Border Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1381 incl/advanced-gutenberg-main.php:1448
+#: incl/advanced-gutenberg-main.php:2218
+msgid "Border Style"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1386 incl/advanced-gutenberg-main.php:1453
+#: incl/advanced-gutenberg-main.php:2222
+msgid "Solid"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1390 incl/advanced-gutenberg-main.php:1457
+#: incl/advanced-gutenberg-main.php:2223
+msgid "Dashed"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1394 incl/advanced-gutenberg-main.php:1461
+#: incl/advanced-gutenberg-main.php:2224
+msgid "Dotted"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1400 incl/advanced-gutenberg-main.php:1467
+#: incl/advanced-gutenberg-main.php:2228 incl/advanced-gutenberg-main.php:2271
+msgid "Border Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1405 incl/advanced-gutenberg-main.php:1472
+#: incl/advanced-gutenberg-main.php:2233 incl/advanced-gutenberg-main.php:2283
+msgid "Border Width"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1412 incl/advanced-gutenberg-main.php:1479
+#: incl/advanced-gutenberg-main.php:2240
+msgid "Border Radius"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1423
+msgid "Text and Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1426 incl/advanced-gutenberg-main.php:1670
+msgid "Text Size"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1488
+msgid "Padding Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1491
+msgid "Padding Top"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1498
+msgid "Padding Right"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1505
+msgid "Padding Bottom"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1512
+msgid "Padding Left"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1521
+msgid "Hover Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1534
+msgid "Shadow Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1539
+msgid "Shadow H Offset"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1546
+msgid "Shadow V Offset"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1553
+msgid "Shadow Blur"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1560
+msgid "Shadow Spread"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1567
+msgid "Transition Speed"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1578
+msgid "Image Size"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1581 incl/advanced-gutenberg-main.php:1808
+msgid "Full width"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1586 incl/advanced-gutenberg-main.php:1964
+msgid "Height"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1593
+msgid "Width"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1602
+msgid "Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1605
+msgid "Title Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1610
+msgid "Subtitle Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1615
+msgid "Overlay Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1622
+msgid "Text Alignment"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1625 incl/advanced-gutenberg-main.php:1644
+msgid "Vertical Alignment"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1630
+msgid "Top"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1634 incl/advanced-gutenberg-main.php:1653
+#: incl/advanced-gutenberg-main.php:2115 incl/advanced-gutenberg-main.php:2161
+msgid "Center"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1638
+msgid "Bottom"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1649 incl/advanced-gutenberg-main.php:2114
+#: incl/advanced-gutenberg-main.php:2160
+msgid "Left"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1657 incl/advanced-gutenberg-main.php:2116
+#: incl/advanced-gutenberg-main.php:2162
+msgid "Right"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1667 incl/advanced-gutenberg-main.php:2299
+msgid "Text Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1679
+msgid "Icon Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1682
+msgid "Icon style"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1687
+msgid "None"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1691
+msgid "Pushpin"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1695
+#: incl/view/advanced-gutenberg-main-view.php:17
+#: incl/view/advanced-gutenberg-settings.php:61
+#: incl/view/advanced-gutenberg-settings.php:79
+msgid "Configuration"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1699
+msgid "Flag"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1703
+msgid "Star"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1707
+msgid "Checkmark"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1711
+msgid "Minus"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1719
+msgid "Play"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1723
+msgid "Arrow Right"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1727
+msgid "X Cross"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1731
+msgid "Warning"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1735
+msgid "Help"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1739
+msgid "Info"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1743
+msgid "Circle"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1749
+msgid "Icon color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1754 incl/advanced-gutenberg-main.php:2120
+msgid "Icon Size"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1761
+msgid "Line Height"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1768
+msgid "Margin"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1775
+msgid "Padding"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1786
+msgid "Table Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1789
+msgid "Max width"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1800
+msgid "Video Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1803
+msgid "Open video in lightbox"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1813
+msgid "Video Width"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1820
+msgid "Video Height"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1827
+msgid "Overlay color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1834
+msgid "Play Button Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1837
+msgid "Button Icon"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1842
+msgid "Normal"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1846
+msgid "Filled Circle"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1850
+msgid "Outline Circle"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1854
+msgid "Video Camera"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1858
+msgid "Filled Square"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1862
+msgid "Star Sticker"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1868
+msgid "Button Size"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1875
+msgid "Button Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1884 incl/advanced-gutenberg-main.php:2107
+#: incl/advanced-gutenberg-main.php:2138 incl/advanced-gutenberg-main.php:2251
+msgid "General Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1887
+msgid "Number of columns"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1896
+msgid "Color Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1899
+msgid "Header Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1904
+msgid "Count Up Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1909 incl/advanced-gutenberg-main.php:2312
+msgid "Description Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1916
+msgid "Count Up Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1919
+msgid "Count Up Number Size"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1930
+msgid "Location Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1938
+msgid "Latitude"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1945
+msgid "Longitude"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1954
+msgid "Map Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1957
+msgid "Zoom Level"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1973
+msgid "Marker Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1976
+msgid "Marker Title"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1981
+msgid "Marker Description"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1990
+msgid "Icon 1 Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1993 incl/advanced-gutenberg-main.php:2032
+#: incl/advanced-gutenberg-main.php:2071
+msgid "Icon"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1997 incl/advanced-gutenberg-main.php:2036
+#: incl/advanced-gutenberg-main.php:2075
+msgid "Default"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1998 incl/advanced-gutenberg-main.php:2037
+#: incl/advanced-gutenberg-main.php:2076
+msgid "Blogger"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1999 incl/advanced-gutenberg-main.php:2038
+#: incl/advanced-gutenberg-main.php:2077
+msgid "Facebook"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2000 incl/advanced-gutenberg-main.php:2039
+#: incl/advanced-gutenberg-main.php:2078
+msgid "Flickr"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2001 incl/advanced-gutenberg-main.php:2040
+#: incl/advanced-gutenberg-main.php:2079
+msgid "Google Plus"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2002 incl/advanced-gutenberg-main.php:2041
+#: incl/advanced-gutenberg-main.php:2080
+msgid "Instagram"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2003 incl/advanced-gutenberg-main.php:2042
+#: incl/advanced-gutenberg-main.php:2081
+msgid "LinkedIn"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2004 incl/advanced-gutenberg-main.php:2043
+#: incl/advanced-gutenberg-main.php:2082
+#: incl/view/advanced-gutenberg-profile.php:235
+msgid "Email"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2005 incl/advanced-gutenberg-main.php:2044
+#: incl/advanced-gutenberg-main.php:2083
+msgid "Picasa"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2006 incl/advanced-gutenberg-main.php:2045
+#: incl/advanced-gutenberg-main.php:2084
+msgid "Pinterest"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2007 incl/advanced-gutenberg-main.php:2046
+#: incl/advanced-gutenberg-main.php:2085
+msgid "Reddit"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2008 incl/advanced-gutenberg-main.php:2047
+#: incl/advanced-gutenberg-main.php:2086
+msgid "Skype"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2009 incl/advanced-gutenberg-main.php:2048
+#: incl/advanced-gutenberg-main.php:2087
+msgid "Sound Cloud"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2010 incl/advanced-gutenberg-main.php:2049
+#: incl/advanced-gutenberg-main.php:2088
+msgid "Tumblr"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2011 incl/advanced-gutenberg-main.php:2050
+#: incl/advanced-gutenberg-main.php:2089
+msgid "Twitter"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2012 incl/advanced-gutenberg-main.php:2051
+#: incl/advanced-gutenberg-main.php:2090
+msgid "Vimeo"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2013 incl/advanced-gutenberg-main.php:2052
+#: incl/advanced-gutenberg-main.php:2091
+msgid "Youtube"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2017 incl/advanced-gutenberg-main.php:2056
+#: incl/advanced-gutenberg-main.php:2095
+msgid "Icon Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2022 incl/advanced-gutenberg-main.php:2061
+#: incl/advanced-gutenberg-main.php:2100
+msgid "Icon Link"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2029
+msgid "Icon 2 Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2068
+msgid "Icon 3 Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2110
+msgid "Icon Alignment"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2127
+msgid "Icon Space"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2141
+msgid "Load minimized"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2146
+msgid "Summary header title"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2151
+msgid "Anchor color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2156
+msgid "Summary Alignment"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2170
+msgid "Tab Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2185
+msgid "Active Tab Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2254
+msgid "Columns"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2263
+msgid "Avatar Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2276
+msgid "Border Radius (%)"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2290
+msgid "Avatar Size"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2302
+msgid "Name Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2307
+msgid "Position Color"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2325
+msgid "Config for this block is currently unsupported."
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2597
+msgid "Type field not defined"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-block-config.php:12
+msgid " block"
+msgstr "blok"
+
+#: incl/view/advanced-gutenberg-block-config.php:13
+#: incl/view/advanced-gutenberg-block-config.php:20
+#: incl/view/advanced-gutenberg-profile.php:117
+#: incl/view/advanced-gutenberg-profile.php:390
+#: incl/view/advanced-gutenberg-settings.php:242
+msgid "Save"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:8
+msgid "Custom styles"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:13
+msgid "Your styles have been saved"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:27
+msgid "Copy"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:28
+#: incl/view/advanced-gutenberg-profiles.php:94
+msgid "Delete"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:29
+#: incl/view/advanced-gutenberg-settings.php:268
+msgid "Edit"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:33
+msgid "Add new class"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:39
+msgid "All modifications were saved!"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:47
+msgid "Style class"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:56
+msgid ""
+"This option help you identify specific custom styles in the list\n"
+"                                (usually set this same as the custom style's "
+"background color)"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:62
+msgid "Identification color"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:75
+msgid "Custom CSS"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:80
+msgid "Hint: Use \"Ctrl + Space\" for auto completion"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:92
+msgid "Save styles"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:98
+msgid "Preview"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:100
+msgid ""
+"Previous Paragraph Previous Paragraph Previous Paragraph Previous Paragraph "
+"Previous Paragraph Previous Paragraph Previous Paragraph Previous Paragraph "
+"Previous Paragraph"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:102
+msgid "Example of text"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-custom-styles.php:104
+msgid ""
+"Following Paragraph Following Paragraph  Following Paragraph Following "
+"Paragraph Following Paragraph Following Paragraph Following Paragraph "
+"Following Paragraph"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profiles.php:42
+msgid "Delete selected"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profiles.php:47
+msgid "Search profiles by title or author"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profiles.php:59
+#: incl/view/advanced-gutenberg-profiles.php:117
+msgid "Title"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profiles.php:65
+#: incl/view/advanced-gutenberg-profiles.php:123
+msgid "Author"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profiles.php:71
+#: incl/view/advanced-gutenberg-profiles.php:129
+msgid "Date"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profiles.php:91
+msgid "(untitled)"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profiles.php:105
+msgid "No profiles found."
+msgstr ""
+
+#: incl/view/advanced-gutenberg-main-view.php:5
+msgid "You need to activate Gutenberg to use our plugin!"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-main-view.php:22
+msgid "Custom Styles"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-main-view.php:27
+#: incl/view/advanced-gutenberg-main-view.php:70
+msgid "Translation"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-main-view.php:38
+msgid "JoomUnited logo"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-main-view.php:44
+msgid "Search settings"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:35
+msgid "Refresh"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:40
+msgid "Refreshing..."
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:69
+msgid "Blocks List"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:74
+msgid "Profile Attribution"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:82
+msgid "Profile saved successfully!"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:84
+msgid "Return to profiles list"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:94
+msgid "Blocks list updated."
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:107
+msgid "Update the blocks list"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:123
+msgid "Profile title"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:127
+msgid "Enter title here"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:137
+#: incl/view/advanced-gutenberg-settings.php:252
+msgid "Search blocks"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:194
+msgid "Active this profile for this user(s)"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:200
+msgid "Clear"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:202
+msgid "Use role filter"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:215
+msgid "Search users"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:217
+msgid "Search"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:229
+msgid "Name"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:232
+msgid "Username"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:238
+msgid "Role"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-profile.php:356
+msgid "Active this profile for this group(s)"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:66
+msgid "Default blocks config"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:74
+msgid "Settings saved successfully"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:89
+msgid "Open gallery images as a lightbox style popup"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:94
+msgid "Open galleries in lightbox"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:112
+msgid "Show images caption in lightbox."
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:117
+msgid "Image caption"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:136
+msgid "This API key is required to using Map Block."
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:141
+msgid "Google API Key"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:153
+msgid "How to create a Google API Key"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:161
+msgid "Blocks Settings"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:169
+msgid "Enable block spacing settings"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:174
+msgid "Enable blocks spacing"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:193
+msgid ""
+"Apply a minimal vertical block spacing automatically. Default is None. "
+"Values in pixels"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:198
+msgid "Blocks spacing"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:218
+msgid "Set color for blocks that added by Advanced Gutenberg"
+msgstr ""
+
+#: incl/view/advanced-gutenberg-settings.php:223
+msgid "Blocks icon color"
+msgstr ""
+
+#. Description of the plugin
+msgid "Enhanced tools for Gutenberg editor"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.joomunited.com/wordpress-products/advanced-gutenberg"
+msgstr ""
+
+#. Author of the plugin
+msgid "JoomUnited"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.joomunited.com"
+msgstr ""
