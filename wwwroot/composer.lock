@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "30c0dd0316da2a231c3b89480fbe0145",
+    "content-hash": "8f816882d3ff4696b2e9a7fd4e0c6dcb",
     "packages": [
         {
             "name": "composer/installers",
@@ -372,15 +372,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
-                "reference": "tags/1.6.1"
+                "reference": "tags/1.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.1.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.1.6.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -532,15 +532,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "3.6.2",
+            "version": "3.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/3.6.2"
+                "reference": "tags/3.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.3.6.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.3.7.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -629,6 +629,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/shortcodes-ultimate/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-gdpr-compliance",
+            "version": "1.4.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-gdpr-compliance/",
+                "reference": "tags/1.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-gdpr-compliance.1.4.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-gdpr-compliance/"
         },
         {
             "name": "wpackagist-theme/atomic-blocks",
@@ -767,7 +787,7 @@
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v2.8.44",
+            "version": "v2.8.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-08-19 09:50:19+0000\n"
+"PO-Revision-Date: 2018-08-30 11:42:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -324,11 +324,11 @@ msgstr "Wat je nu leest is een <strong>tekstblok</strong>, het eenvoudigste blok
 
 #: post-content.php:6
 msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
-msgstr "Het doel van deze nieuwe editor is het eenvoudig en plezierig maken om het rijke inhoud aan WordPress toe te voegen. Dit hele bericht bestaat uit <em>stukjes inhoud</em> - het lijkt wat op LEGO-stenen - die je kunt bewegen en waarmee je kunt werken. Beweeg je cursor rond, en je ziet dat de verschillende blokken oplichten met contouren en pijlen. Druk op de pijlen om blokken snel te verplaatsen zonder bang te hoeven zijn dingen te verliezen tijdens kopieer- en plakwerk."
+msgstr "Het doel van deze nieuwe editor is het eenvoudig en plezierig maken om rijke inhoud aan WordPress toe te voegen. Dit hele bericht bestaat uit <em>stukjes inhoud</em> - het lijkt wat op LEGO-stenen - die je kunt bewegen en waarmee je kunt werken. Beweeg je cursor rond en je ziet dat de verschillende blokken oplichten met contouren en pijlen. Druk op de pijlen om blokken snel te verplaatsen zonder bang te hoeven zijn dingen te verliezen tijdens kopieer- en plakwerk."
 
 #: post-content.php:2
 msgid "Of Mountains &amp; Printing Presses"
-msgstr "Van Mountains &amp; Printing Presses"
+msgstr "Over bergen &amp; drukpersen"
 
 #. translators: %s link to an issue in the Gutenberg repository
 #: lib/compat.php:350

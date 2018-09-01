@@ -40,6 +40,7 @@
         "wpackagist-plugin/ricg-responsive-images": "^3.1.1",
         "wpackagist-plugin/series": "^2.0.0",
         "wpackagist-plugin/shortcodes-ultimate": "^5.0.3",
+        "wpackagist-plugin/wp-gdpr-compliance": "^1.4.2",
         "wpackagist-theme/atomic-blocks": "^1.1.9",
         "wpackagist-theme/gridsby": "^1.2.9"
     },
