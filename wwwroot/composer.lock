@@ -372,15 +372,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
-                "reference": "tags/1.6.2"
+                "reference": "tags/1.6.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.1.6.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.1.6.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -412,15 +412,15 @@
         },
         {
             "name": "wpackagist-plugin/backupwordpress",
-            "version": "3.6.4",
+            "version": "3.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/backupwordpress/",
-                "reference": "tags/3.6.4"
+                "reference": "tags/3.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/backupwordpress.3.6.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/backupwordpress.3.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -652,15 +652,15 @@
         },
         {
             "name": "wpackagist-theme/atomic-blocks",
-            "version": "1.1.9",
+            "version": "1.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/atomic-blocks/",
-                "reference": "1.1.9"
+                "reference": "1.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/atomic-blocks.1.1.9.zip",
+                "url": "https://downloads.wordpress.org/theme/atomic-blocks.1.2.0.zip",
                 "reference": null,
                 "shasum": null
             },
