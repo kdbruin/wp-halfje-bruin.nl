@@ -26,7 +26,7 @@
         "johnpbloch/wordpress": ">=4.9",
         "rarst/update-blocker": "^1.1",
         "kdb/hb-plugin": "dev-master",    
-        "wpackagist-plugin/advanced-custom-fields": "^4.4.12",
+        "wpackagist-plugin/advanced-custom-fields": "^5.7.6",
         "wpackagist-plugin/advanced-gutenberg": "^1.6.1",
         "wpackagist-plugin/atomic-blocks": "^1.3.3",
         "wpackagist-plugin/backupwordpress": "^3.6.4",
