@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c521477721b06b19f9cac17c8aab3d6",
+    "content-hash": "a5bad679f6af97bdf6ff58345d0f73c6",
     "packages": [
         {
             "name": "composer/installers",
@@ -531,6 +531,26 @@
             "homepage": "https://wordpress.org/plugins/force-regenerate-thumbnails/"
         },
         {
+            "name": "wpackagist-plugin/gdpr-cookie-compliance",
+            "version": "1.1.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/gdpr-cookie-compliance/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gdpr-cookie-compliance.zip?timestamp=1538980585",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gdpr-cookie-compliance/"
+        },
+        {
             "name": "wpackagist-plugin/gutenberg",
             "version": "4.0.0",
             "source": {
@@ -629,26 +649,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/shortcodes-ultimate/"
-        },
-        {
-            "name": "wpackagist-plugin/uk-cookie-consent",
-            "version": "2.3.11",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/uk-cookie-consent/",
-                "reference": "tags/2.3.11"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/uk-cookie-consent.2.3.11.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/uk-cookie-consent/"
         },
         {
             "name": "wpackagist-theme/atomic-blocks",
