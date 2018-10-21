@@ -35,14 +35,14 @@
         "wpackagist-plugin/disqus-comment-system": "^3.0.15",
         "wpackagist-plugin/enable-media-replace": "^3.2.5",
         "wpackagist-plugin/force-regenerate-thumbnails": "^2.0.6",
-        "wpackagist-plugin/gutenberg": "^3.5.0",
+        "wpackagist-plugin/gutenberg": "^4.0.0",
         "wpackagist-plugin/post-snippets": "^3.0.5",
         "wpackagist-plugin/ricg-responsive-images": "^3.1.1",
         "wpackagist-plugin/series": "^2.0.0",
         "wpackagist-plugin/shortcodes-ultimate": "^5.0.3",
-        "wpackagist-plugin/wp-gdpr-compliance": "^1.4.2",
         "wpackagist-theme/atomic-blocks": "^1.1.9",
-        "wpackagist-theme/gridsby": "^1.2.9"
+        "wpackagist-theme/gridsby": "^1.2.9",
+        "wpackagist-plugin/uk-cookie-consent": "^2.3"
     },
     "require-dev": {
         "rarst/laps": "^1.4.4",

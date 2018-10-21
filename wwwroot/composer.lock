@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a005ae56f487f0348fe1f21ad08b36c8",
+    "content-hash": "0c521477721b06b19f9cac17c8aab3d6",
     "packages": [
         {
             "name": "composer/installers",
@@ -372,15 +372,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg",
-            "version": "1.6.7",
+            "version": "1.7.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
-                "reference": "tags/1.6.7"
+                "reference": "tags/1.7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.1.6.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.1.7.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -532,15 +532,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "3.9.0",
+            "version": "4.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/3.9.0"
+                "reference": "tags/4.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.3.9.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.4.0.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -612,15 +612,15 @@
         },
         {
             "name": "wpackagist-plugin/shortcodes-ultimate",
-            "version": "5.0.7",
+            "version": "5.0.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/shortcodes-ultimate/",
-                "reference": "tags/5.0.7"
+                "reference": "tags/5.0.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.5.0.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.5.0.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -631,16 +631,16 @@
             "homepage": "https://wordpress.org/plugins/shortcodes-ultimate/"
         },
         {
-            "name": "wpackagist-plugin/wp-gdpr-compliance",
-            "version": "1.4.2",
+            "name": "wpackagist-plugin/uk-cookie-consent",
+            "version": "2.3.11",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-gdpr-compliance/",
-                "reference": "tags/1.4.2"
+                "url": "https://plugins.svn.wordpress.org/uk-cookie-consent/",
+                "reference": "tags/2.3.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-gdpr-compliance.1.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/uk-cookie-consent.2.3.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -648,19 +648,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-gdpr-compliance/"
+            "homepage": "https://wordpress.org/plugins/uk-cookie-consent/"
         },
         {
             "name": "wpackagist-theme/atomic-blocks",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/atomic-blocks/",
-                "reference": "1.2.2"
+                "reference": "1.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/atomic-blocks.1.2.2.zip",
+                "url": "https://downloads.wordpress.org/theme/atomic-blocks.1.2.3.zip",
                 "reference": null,
                 "shasum": null
             },
