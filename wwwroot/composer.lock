@@ -372,15 +372,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg",
-            "version": "1.7.3",
+            "version": "1.7.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
-                "reference": "tags/1.7.3"
+                "reference": "tags/1.7.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.1.7.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.1.7.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -552,15 +552,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "4.0.0",
+            "version": "4.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/4.0.0"
+                "reference": "tags/4.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.4.0.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.4.1.0.zip",
                 "reference": null,
                 "shasum": null
             },
