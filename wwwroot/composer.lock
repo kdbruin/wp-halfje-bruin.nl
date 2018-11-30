@@ -207,16 +207,16 @@
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
-            "version": "1.0.0.2",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "7941acd71725710a789daabe0557429da63e7ac6"
+                "reference": "fd12f5cfe27223b92b0f4bbc097059eb23cc56c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/7941acd71725710a789daabe0557429da63e7ac6",
-                "reference": "7941acd71725710a789daabe0557429da63e7ac6",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/fd12f5cfe27223b92b0f4bbc097059eb23cc56c4",
+                "reference": "fd12f5cfe27223b92b0f4bbc097059eb23cc56c4",
                 "shasum": ""
             },
             "require": {
@@ -240,7 +240,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -252,7 +252,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-01-29T14:49:29+00:00"
+            "time": "2018-11-09T20:10:38+00:00"
         },
         {
             "name": "kdb/hb-plugin",
@@ -372,15 +372,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg",
-            "version": "1.7.5",
+            "version": "1.7.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
-                "reference": "tags/1.7.5"
+                "reference": "tags/1.7.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.1.7.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.1.7.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -392,15 +392,15 @@
         },
         {
             "name": "wpackagist-plugin/atomic-blocks",
-            "version": "1.3.5",
+            "version": "1.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/atomic-blocks/",
-                "reference": "tags/1.3.5"
+                "reference": "tags/1.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/atomic-blocks.1.3.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/atomic-blocks.1.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -412,15 +412,15 @@
         },
         {
             "name": "wpackagist-plugin/backupwordpress",
-            "version": "3.7.2",
+            "version": "3.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/backupwordpress/",
-                "reference": "trunk"
+                "reference": "tags/3.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/backupwordpress.zip?timestamp=1536748229",
+                "url": "https://downloads.wordpress.org/plugin/backupwordpress.3.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -532,7 +532,7 @@
         },
         {
             "name": "wpackagist-plugin/gdpr-cookie-compliance",
-            "version": "1.1.7",
+            "version": "1.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gdpr-cookie-compliance/",
@@ -540,7 +540,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gdpr-cookie-compliance.zip?timestamp=1538980585",
+                "url": "https://downloads.wordpress.org/plugin/gdpr-cookie-compliance.zip?timestamp=1543503627",
                 "reference": null,
                 "shasum": null
             },
@@ -552,15 +552,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "4.1.0",
+            "version": "4.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/4.1.0"
+                "reference": "tags/4.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.4.1.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.4.5.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -632,15 +632,15 @@
         },
         {
             "name": "wpackagist-plugin/shortcodes-ultimate",
-            "version": "5.0.8",
+            "version": "5.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/shortcodes-ultimate/",
-                "reference": "tags/5.0.8"
+                "reference": "tags/5.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.5.0.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.5.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -787,16 +787,16 @@
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v2.8.46",
+            "version": "v2.8.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
-                "reference": "12a4b0c2a1788adf16a5548ab18ab9e8801d71d8"
+                "reference": "752586c80af8a85aeb74d1ae8202411c68836663"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/12a4b0c2a1788adf16a5548ab18ab9e8801d71d8",
-                "reference": "12a4b0c2a1788adf16a5548ab18ab9e8801d71d8",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/752586c80af8a85aeb74d1ae8202411c68836663",
+                "reference": "752586c80af8a85aeb74d1ae8202411c68836663",
                 "shasum": ""
             },
             "require": {
@@ -832,7 +832,7 @@
             ],
             "description": "Symfony Stopwatch Component",
             "homepage": "https://symfony.com",
-            "time": "2018-07-24T10:05:38+00:00"
+            "time": "2018-11-11T11:18:13+00:00"
         },
         {
             "name": "wpackagist-plugin/a-fresher-cache",
@@ -876,15 +876,15 @@
         },
         {
             "name": "wpackagist-plugin/loco-translate",
-            "version": "2.1.5",
+            "version": "2.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/loco-translate/",
-                "reference": "tags/2.1.5"
+                "reference": "tags/2.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.1.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.2.0.zip",
                 "reference": null,
                 "shasum": null
             },
