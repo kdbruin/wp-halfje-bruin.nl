@@ -25,6 +25,6 @@ rsync "$@"  \
     --delete-during \
     --exclude-from=${EXCLUDES} \
     --log-file=${LOGFILE} \
-    --rsh="ssh -i ${SSH_KEYFILE}" \
+    --rsh="ssh -i '${SSH_KEYFILE}'" \
     ${LOCAL_DIR} \
     ${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_DIR}
