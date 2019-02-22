@@ -23,7 +23,7 @@
     },
     "require": {
         "vlucas/phpdotenv": "^1.0.6",
-        "johnpbloch/wordpress": ">=4.9",
+        "johnpbloch/wordpress": ">=5.0",
         "rarst/update-blocker": "^1.1",
         "kdb/hb-plugin": "dev-master",    
         "wpackagist-plugin/advanced-custom-fields": "^5.7.6",
@@ -35,7 +35,7 @@
         "wpackagist-plugin/disqus-comment-system": "^3.0.15",
         "wpackagist-plugin/enable-media-replace": "^3.2.5",
         "wpackagist-plugin/force-regenerate-thumbnails": "^2.0.6",
-        "wpackagist-plugin/gutenberg": "^4.0.0",
+        "wpackagist-plugin/gutenberg": "^5.0.0",
         "wpackagist-plugin/post-snippets": "^3.0.5",
         "wpackagist-plugin/ricg-responsive-images": "^3.1.1",
         "wpackagist-plugin/series": "^2.0.0",
@@ -44,7 +44,7 @@
         "wpackagist-theme/gridsby": "^1.2.9",
         "wpackagist-theme/twentynineteen": "^1.2",
         "wpackagist-theme/understrap": "^0.8.9",
-        "wpackagist-plugin/gdpr-cookie-compliance": "^1.1"
+        "wpackagist-plugin/gdpr-cookie-compliance": "^2.0"
     },
     "require-dev": {
         "rarst/laps": "^1.4.4",
