@@ -41,7 +41,7 @@
         "wpackagist-theme/atomic-blocks": "^1.1.9",
         "wpackagist-theme/gridsby": "^1.2.9",
         "wpackagist-theme/twentynineteen": "^1.2",
-        "wpackagist-theme/understrap": "^0.8.9",
+        "wpackagist-theme/understrap": "^0.9.1",
         "wpackagist-plugin/gdpr-cookie-compliance": "^2.0"
     },
     "require-dev": {

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.1.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-02-22 08:12:41+0000\n"
+"PO-Revision-Date: 2019-03-15 11:56:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,6 +36,14 @@ msgstr "."
 msgid "number_format_decimal_point"
 msgstr ","
 
+#: wp-includes/functions.php:6884
+msgid "Update PHP"
+msgstr "PHP bijwerken"
+
+#: wp-includes/ms-site.php:67
+msgid "Could not retrieve site data."
+msgstr "Site gegevens kunnen niet opgehaald worden."
+
 #: wp-includes/js/dist/block-library.js:2253
 msgid "Embed Crowdsignal (formerly Polldaddy) content."
 msgstr "Crowdsignal (voorheen Polldaddy) inhoud insluiten."
@@ -46,7 +54,7 @@ msgid "REST API routes must be registered on the %s action."
 msgstr "REST API-routes moeten worden geregistreerd voor de actie %s"
 
 #. translators: used to join last two items in a list with more than 2 times
-#: wp-includes/formatting.php:4907
+#: wp-includes/formatting.php:4909
 msgid "%1$s, and %2$s"
 msgstr "%1$s en %2$s"
 
@@ -66,65 +74,65 @@ msgid "Your comment is awaiting moderation. This is a preview, your comment will
 msgstr "Je reactie is in afwachting van moderatie. Dit is een voorbeeld, je reactie wordt zichtbaar zodra deze is goedgekeurd."
 
 #. translators: %s: database table name
-#: wp-includes/ms-site.php:1297
+#: wp-includes/ms-site.php:1311
 msgid "The %s table is not installed. Please run the network database upgrade."
 msgstr "De %s tabel is niet geïnstalleerd. Voer de netwerk database upgrade uit."
 
-#: wp-includes/ms-site.php:784
+#: wp-includes/ms-site.php:798
 msgid "The site appears to be already uninitialized."
 msgstr "De site lijkt niet geïnitialiseerd."
 
 #. translators: %d: site ID
-#: wp-includes/ms-site.php:666
+#: wp-includes/ms-site.php:680
 msgid "Site %d"
 msgstr "Site %d"
 
-#: wp-includes/ms-site.php:653
+#: wp-includes/ms-site.php:667
 msgid "The site appears to be already initialized."
 msgstr "De site lijkt al geïnitialiseerd."
 
-#: wp-includes/ms-site.php:649 wp-includes/ms-site.php:780
+#: wp-includes/ms-site.php:663 wp-includes/ms-site.php:794
 msgid "Site with the ID does not exist."
 msgstr "Site met de ID bestaat niet."
 
-#: wp-includes/ms-site.php:593
+#: wp-includes/ms-site.php:607
 msgid "Both registration and last updated dates must be valid dates."
 msgstr "Zowel registratie als laatst bijgewerkte datums moeten geldige datums zijn."
 
-#: wp-includes/ms-site.php:582
+#: wp-includes/ms-site.php:596
 msgid "Both registration and last updated dates must be provided."
 msgstr "Zowel registratie als laatste bijgewerkte datums moeten worden verstrekt."
 
-#: wp-includes/ms-site.php:575
+#: wp-includes/ms-site.php:589
 msgid "Site network ID must be provided."
 msgstr "Er moet een ID van het site netwerk zijn opgegeven."
 
-#: wp-includes/ms-site.php:570
+#: wp-includes/ms-site.php:584
 msgid "Site path must not be empty."
 msgstr "Het sitepad mag niet leeg zijn."
 
-#: wp-includes/ms-site.php:565
+#: wp-includes/ms-site.php:579
 msgid "Site domain must not be empty."
 msgstr "Site domein mag niet leeg zijn."
 
-#: wp-includes/ms-site.php:240
+#: wp-includes/ms-site.php:254
 msgid "Could not delete site from the database."
 msgstr "Kon site niet uit de database verwijderen."
 
-#: wp-includes/ms-site.php:151
+#: wp-includes/ms-site.php:165
 msgid "Could not update site in the database."
-msgstr "Kon site in de database niet bijwerken."
+msgstr "Kon de site niet in de database bijwerken."
 
-#: wp-includes/ms-site.php:137 wp-includes/ms-site.php:190
+#: wp-includes/ms-site.php:151 wp-includes/ms-site.php:204
 msgid "Site does not exist."
 msgstr "Site bestaat niet."
 
-#: wp-includes/ms-site.php:132 wp-includes/ms-site.php:185
-#: wp-includes/ms-site.php:644 wp-includes/ms-site.php:775
+#: wp-includes/ms-site.php:146 wp-includes/ms-site.php:199
+#: wp-includes/ms-site.php:658 wp-includes/ms-site.php:789
 msgid "Site ID must not be empty."
 msgstr "Site ID mag niet leeg zijn."
 
-#: wp-includes/ms-site.php:67
+#: wp-includes/ms-site.php:61
 msgid "Could not insert site into the database."
 msgstr "Kon site niet invoegen in de database."
 
@@ -138,7 +146,7 @@ msgid "Formats"
 msgstr "Formaten"
 
 #. translators: used to join items in a list with more than 2 items
-#: wp-includes/formatting.php:4905
+#: wp-includes/formatting.php:4907
 msgid "%1$s, %2$s"
 msgstr "%1$s, %2$s"
 
@@ -2693,6 +2701,7 @@ msgstr "Aangepaste grootte lettertype"
 #. translators: accessibility text
 #: wp-includes/widgets/class-wp-widget-custom-html.php:310
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:59
+#: wp-includes/functions.php:6886
 #: wp-includes/class-wp-customize-manager.php:4270
 #: wp-includes/class-wp-customize-manager.php:5572
 #: wp-includes/class-wp-customize-manager.php:5593
@@ -3422,7 +3431,7 @@ msgid "[deleted]"
 msgstr "[verwijderd]"
 
 #. translators: %d: Comment ID
-#: wp-includes/comment.php:3501
+#: wp-includes/comment.php:3503
 msgid "Comment %d contains personal data but could not be anonymized."
 msgstr "Reactie %d bevat persoonlijke gegevens, maar kon niet geanonimiseerd worden."
 
@@ -3526,39 +3535,39 @@ msgctxt "request status"
 msgid "Pending"
 msgstr "In behandeling"
 
-#: wp-includes/comment.php:3357
+#: wp-includes/comment.php:3359
 msgid "Comment URL"
 msgstr "Reactie URL"
 
-#: wp-includes/comment.php:3356
+#: wp-includes/comment.php:3358
 msgid "Comment Content"
 msgstr "Reactie inhoud"
 
-#: wp-includes/comment.php:3355
+#: wp-includes/comment.php:3357
 msgid "Comment Date"
 msgstr "Reactie datum"
 
-#: wp-includes/comment.php:3354
+#: wp-includes/comment.php:3356
 msgid "Comment Author User Agent"
 msgstr "Reactie auteur User Agent"
 
-#: wp-includes/comment.php:3353
+#: wp-includes/comment.php:3355
 msgid "Comment Author IP"
 msgstr "Reactie auteur IP"
 
-#: wp-includes/comment.php:3352
+#: wp-includes/comment.php:3354
 msgid "Comment Author URL"
 msgstr "Reactie auteur URL"
 
-#: wp-includes/comment.php:3351
+#: wp-includes/comment.php:3353
 msgid "Comment Author Email"
 msgstr "Reactie auteur e-mail"
 
-#: wp-includes/comment.php:3350
+#: wp-includes/comment.php:3352
 msgid "Comment Author"
 msgstr "Reactie auteur"
 
-#: wp-includes/comment.php:3315 wp-includes/comment.php:3424
+#: wp-includes/comment.php:3317 wp-includes/comment.php:3426
 msgid "WordPress Comments"
 msgstr "WordPress reacties"
 
@@ -4598,7 +4607,7 @@ msgstr "Je eigen CSS code hier toevoegen om de weergave en indeling van je site 
 
 #: wp-includes/class-wp-customize-manager.php:5518
 msgid "Your homepage displays"
-msgstr "Jouw homepage toont"
+msgstr "Je homepage toont"
 
 #: wp-includes/class-wp-customize-manager.php:5501
 msgid "You can choose what&#8217;s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two Pages. One will become the homepage, and the other will be where your posts are displayed."
@@ -6667,7 +6676,7 @@ msgstr "Bestaande reactie kan niet aangemaakt worden."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:403
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:420
-#: wp-includes/comment.php:3250
+#: wp-includes/comment.php:3252
 msgid "Sorry, you must be logged in to comment."
 msgstr "Je moet ingelogd zijn om te kunnen reageren."
 
@@ -7538,12 +7547,12 @@ msgstr "Wachtwoord gewijzigd voor gebruiker: %s"
 msgid "Image crop area preview. Requires mouse interaction."
 msgstr "Bijsnijdgebied voorbeeld. Muisgebruik vereist. "
 
-#: wp-includes/formatting.php:4665
+#: wp-includes/formatting.php:4667
 msgid "https://codex.wordpress.org/Using_Permalinks#Choosing_your_permalink_structure"
 msgstr "https://codex.wordpress.org/Using_Permalinks#Choosing_your_permalink_structure"
 
 #. translators: %s: Codex URL
-#: wp-includes/formatting.php:4664
+#: wp-includes/formatting.php:4666
 msgid "A structure tag is required when using custom permalinks. <a href=\"%s\">Learn more</a>"
 msgstr "Voor het gebruik van aangepaste permalinks is een structuur-tag vereist. <a href=\"%s\">Meer hierover</a>"
 
@@ -8545,7 +8554,7 @@ msgstr "Sectie wisselen: %s"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/script-loader.php:2091 wp-includes/formatting.php:3751
+#: wp-includes/script-loader.php:2091 wp-includes/formatting.php:3753
 #: wp-includes/js/dist/editor.js:29052
 msgctxt "Word count type. Do not translate!"
 msgid "words"
@@ -8700,7 +8709,7 @@ msgstr "De aangeroepen constructormethode voor %1$s is <strong>verouderd</strong
 #: wp-includes/class-wp-editor.php:1043
 msgctxt "HTML tag"
 msgid "Preformatted"
-msgstr "Vooraf opgemaakt"
+msgstr "Gepreformatteerd"
 
 #. translators: 1: original menu name, 2: duplicate count
 #: wp-includes/customize/class-wp-customize-nav-menu-setting.php:521
@@ -9968,7 +9977,7 @@ msgstr "Widgets zijn onafhankelijke gedeeltes met inhoud die in de widgetruimtes
 msgid "You are customizing %s"
 msgstr "Je bent %s aan het aanpassen"
 
-#: wp-includes/comment.php:3299
+#: wp-includes/comment.php:3301
 msgid "<strong>ERROR</strong>: The comment could not be saved. Please try again later."
 msgstr "<strong>FOUT</strong>: de reactie kon niet worden opgeslagen. Probeer het later nog een keer."
 
@@ -11088,7 +11097,7 @@ msgstr "Ongeldig"
 
 #. translators: Time difference between two dates, in years. %s: Number of
 #. years
-#: wp-includes/formatting.php:3652
+#: wp-includes/formatting.php:3654
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s jaar"
@@ -11096,7 +11105,7 @@ msgstr[1] "%s jaar"
 
 #. translators: Time difference between two dates, in months. %s: Number of
 #. months
-#: wp-includes/formatting.php:3645
+#: wp-includes/formatting.php:3647
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s maand"
@@ -11104,7 +11113,7 @@ msgstr[1] "%s maanden"
 
 #. translators: Time difference between two dates, in weeks. %s: Number of
 #. weeks
-#: wp-includes/formatting.php:3638
+#: wp-includes/formatting.php:3640
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s week"
@@ -12131,7 +12140,7 @@ msgid "&#8221;"
 msgstr "&#8221;"
 
 #. translators: opening curly double quote
-#: wp-includes/formatting.php:98 wp-includes/formatting.php:5228
+#: wp-includes/formatting.php:98 wp-includes/formatting.php:5230
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8220;"
@@ -12235,15 +12244,15 @@ msgstr "%s overschrijdt de maximale uploadgrootte voor deze site."
 msgid "Feedback"
 msgstr "Terugkoppeling"
 
-#: wp-includes/comment.php:3258
+#: wp-includes/comment.php:3260
 msgid "<strong>ERROR</strong>: please fill the required fields (name, email)."
 msgstr "<strong>FOUT</strong>: vul de vereiste velden in (naam, e-mail)."
 
-#: wp-includes/comment.php:3260
+#: wp-includes/comment.php:3262
 msgid "<strong>ERROR</strong>: please enter a valid email address."
 msgstr "<strong>FOUT</strong>: je hebt een ongeldig e-mailadres opgegeven."
 
-#: wp-includes/comment.php:3285
+#: wp-includes/comment.php:3287
 msgid "<strong>ERROR</strong>: please type a comment."
 msgstr "<strong>FOUT</strong>: schrijf een reactie."
 
@@ -12267,7 +12276,7 @@ msgstr "Supportforums"
 msgid "Documentation"
 msgstr "Documentatie"
 
-#: wp-includes/general-template.php:3953 wp-includes/formatting.php:3740
+#: wp-includes/general-template.php:3953 wp-includes/formatting.php:3742
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -12333,7 +12342,7 @@ msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Blauw"
 
-#: wp-includes/formatting.php:4646
+#: wp-includes/formatting.php:4648
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "De opgegeven tijdzone is niet geldig. Selecteer een geldige tijdzone."
 
@@ -12754,7 +12763,7 @@ msgid "F, Y"
 msgstr "F, Y"
 
 #. translators: used to join items in a list with only 2 items
-#: wp-includes/formatting.php:4909
+#: wp-includes/formatting.php:4911
 msgid "%1$s and %2$s"
 msgstr "%1$s en %2$s"
 
@@ -13007,7 +13016,7 @@ msgstr ""
 "%2$s"
 
 #: wp-includes/ms-functions.php:679 wp-includes/ms-functions.php:1307
-#: wp-includes/ms-site.php:610
+#: wp-includes/ms-site.php:624
 msgid "Sorry, that site already exists!"
 msgstr "Sorry, deze site bestaat al!"
 
@@ -13023,15 +13032,15 @@ msgstr "Deze site is gearchiveerd of buiten werking gesteld."
 msgid "The given object ID is not that of a menu item."
 msgstr "Het opgegeven object-ID is niet van een menu-item."
 
-#: wp-includes/formatting.php:4587
+#: wp-includes/formatting.php:4589
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Het ingevulde siteadres is geen geldige URL. Voer een geldige URL in."
 
-#: wp-includes/formatting.php:4574
+#: wp-includes/formatting.php:4576
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Het ingevulde WordPress-adres is geen geldige URL. Voer een geldige URL in."
 
-#: wp-includes/formatting.php:4464
+#: wp-includes/formatting.php:4466
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "Het ingevoerde e-mailadres blijkt niet een geldig e-mailadres te zijn. Voer een geldig e-mailadres in."
 
@@ -14386,7 +14395,7 @@ msgstr "Koptekst 1"
 
 #: wp-includes/js/dist/block-library.js:10733
 msgid "Preformatted"
-msgstr "Vooraf ingesteld"
+msgstr "Gepreformatteerd"
 
 #: wp-includes/class-wp-editor.php:1039
 #: wp-includes/js/dist/block-library.js:1821
@@ -14856,7 +14865,7 @@ msgid ", "
 msgstr ", "
 
 #. translators: Time difference between two dates, in days. %s: Number of days
-#: wp-includes/formatting.php:3631
+#: wp-includes/formatting.php:3633
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s dag"
@@ -14865,7 +14874,7 @@ msgstr[1] "%s dagen"
 #. translators: Time duration in hour or hours.
 #. translators: Time difference between two dates, in hours. %s: Number of
 #. hours
-#: wp-includes/functions.php:377 wp-includes/formatting.php:3624
+#: wp-includes/functions.php:377 wp-includes/formatting.php:3626
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s uur"
@@ -14873,7 +14882,7 @@ msgstr[1] "%s uur"
 
 #. translators: Time difference between two dates, in minutes (min=minute). %s:
 #. Number of minutes
-#: wp-includes/formatting.php:3617
+#: wp-includes/formatting.php:3619
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minuut"
@@ -15764,7 +15773,7 @@ msgid "Submit"
 msgstr "Verzenden"
 
 #. translators: Name of a comment's author after being anonymized.
-#: wp-includes/comment.php:3470 wp-includes/class-wp-theme.php:835
+#: wp-includes/comment.php:3472 wp-includes/class-wp-theme.php:835
 #: wp-includes/comment-template.php:31
 msgid "Anonymous"
 msgstr "Anoniem"
@@ -15878,7 +15887,7 @@ msgstr "Samenvatting"
 msgid "Publish"
 msgstr "Publiceren"
 
-#: wp-includes/script-loader.php:1485 wp-includes/comment.php:3400
+#: wp-includes/script-loader.php:1485 wp-includes/comment.php:3402
 msgid "Comments"
 msgstr "Reacties"
 
