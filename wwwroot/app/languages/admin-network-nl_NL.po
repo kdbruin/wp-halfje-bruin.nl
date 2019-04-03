@@ -492,7 +492,7 @@ msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\">Doc
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\">Documentatie over de Netwerk instellingen</a>"
 
 #. translators: 1: site url, 2: server error message
-#: wp-admin/network/upgrade.php:96
+#: wp-admin/network/upgrade.php:97
 msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
 msgstr "Waarschuwing. Er is een probleem met het bijwerken van %1$s. De server is mogelijk niet in staat om verbinding te maken met de sites die er op draaien. Foutmelding: %2$s"
 
@@ -620,7 +620,7 @@ msgid "From here you can:"
 msgstr "Hier kun je:"
 
 #: wp-admin/network/upgrade.php:15 wp-admin/network/upgrade.php:42
-#: wp-admin/network/upgrade.php:141 wp-admin/network/menu.php:34
+#: wp-admin/network/upgrade.php:142 wp-admin/network/menu.php:34
 msgid "Upgrade Network"
 msgstr "Netwerk upgraden"
 
@@ -628,7 +628,7 @@ msgstr "Netwerk upgraden"
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "Dit scherm alleen gebruiken wanneer je WordPress hebt bijgewerkt via Nieuwe updates beschikbaar (in het netwerkbeheer navigatiemenu of in de toolbar). Het klikken op de bijwerkenknop zorgt ervoor dat alle database wijzigingen worden doorgevoerd voor elke site (5 tegelijkertijd) op alle sites in het netwerk."
 
-#: wp-admin/network/upgrade.php:137
+#: wp-admin/network/upgrade.php:138
 msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
 msgstr "WordPress is bijgewerkt. Voordat je verder gaat moeten eerst alle individuele sites in je netwerk bijgewerkt worden."
 
@@ -1082,7 +1082,7 @@ msgstr "De volgende woorden zijn gereserveerd voor gebruik van de WordPress func
 msgid "If you want to ban domains from site registrations. One domain per line."
 msgstr "Als je domeinen wilt verbieden van site registraties. Een domein per regel."
 
-#: wp-admin/network/upgrade.php:121
+#: wp-admin/network/upgrade.php:122
 msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
 msgstr "Als je browser de volgende pagina niet automatisch start, klik op deze link:"
 
@@ -1182,7 +1182,7 @@ msgstr "De eerste pagina op een nieuwe site."
 msgid "The URL for the first comment on a new site."
 msgstr "De URL voor de eerste reactie op een nieuwe site."
 
-#: wp-admin/network/upgrade.php:72
+#: wp-admin/network/upgrade.php:73
 msgid "All done!"
 msgstr "Klaar."
 
@@ -1230,7 +1230,7 @@ msgstr "E-mailadres ontbreekt."
 msgid "Missing or invalid site address."
 msgstr "Ontbrekend of ongeldig site-adres."
 
-#: wp-admin/network/upgrade.php:121
+#: wp-admin/network/upgrade.php:122
 msgid "Next Sites"
 msgstr "Volgende websites"
 

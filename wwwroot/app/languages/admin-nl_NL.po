@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.1.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-03-13 05:38:13+0000\n"
+"PO-Revision-Date: 2019-03-23 09:36:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +24,7 @@ msgstr "Europa/Amsterdam"
 
 #: wp-admin/about.php:146
 msgid "Miscellaneous improvements include updates to values for the <code>WP_DEBUG_LOG</code> constant, new test config file constant in the test suite, new plugin action hooks, short-circuit filters for <code>wp_unique_post_slug()</code> and <code>WP_User_Query</code> and <code>count_users()</code>, a new <code>human_readable_duration</code> function, improved taxonomy metabox sanitization, limited <code>LIKE</code> support for meta keys when using <code>WP_Meta_Query</code>, a new “doing it wrong” notice when registering REST API endpoints, and more!"
-msgstr "Verschillende verbeteringen zoals updates voor de waarden die je kunt gebruiken in in de <code>WP_DEBUG_LOG</code> constant, een nieuwe test config file constant in de test suite, nieuwe plugin action hooks, short-circuit filters voor <code>wp_unique_post_slug()</code> en <code>WP_User_Query</code> en <code>count_users()</code>, een nieuwe <code>human_readable_duration</code> functie, verbeterde taxonomy metabox opschoning, gelimiteerde <code>LIKE</code> support voor meta keys wanneer je  <code>WP_Meta_Query</code> gebruikt en een nieuwe “doing it wrong” melding wanneer je REST API endpoints registreert, en nog veel meer!"
+msgstr "Verschillende verbeteringen zoals updates voor de waarden die je kunt gebruiken in de <code>WP_DEBUG_LOG</code> constant, een nieuwe test config file constant in de test suite, nieuwe plugin action hooks, short-circuit filters voor <code>wp_unique_post_slug()</code> en <code>WP_User_Query</code> en <code>count_users()</code>, een nieuwe <code>human_readable_duration</code> functie, verbeterde taxonomy metabox opschoning, gelimiteerde <code>LIKE</code> support voor meta keys wanneer je  <code>WP_Meta_Query</code> gebruikt en een nieuwe “doing it wrong” melding wanneer je REST API endpoints registreert, en nog veel meer!"
 
 #: wp-admin/about.php:144
 msgid "Other Developer Goodness"
@@ -36,11 +36,11 @@ msgstr "Nieuw JS Build Proces"
 
 #: wp-admin/about.php:135
 msgid "WordPress 5.1 features a new JavaScript build option, following the large reorganization of code started in the 5.0 release."
-msgstr "WordPress 5.1 introduceert een nieuw JavaScript build optie als gevolg van de grote reorganizatie van code die begon met de 5.0 release."
+msgstr "WordPress 5.1 introduceert een nieuwe JavaScript build optie als gevolg van de grote reorganizatie van code die begon met de 5.0 release."
 
 #: wp-admin/about.php:127
 msgid "The Cron API has been updated with new functions to assist with returning data and includes new filters for modifying cron storage. Other changes in behavior affect cron spawning on servers running FastCGI and PHP-FPM versions 7.0.16 and above."
-msgstr "De Cron API is bijgewerkt met nieuwe functies voor returning data en bevat ook nieuwe filters voor het aanpassen van de cron storage. Andere wijzigingen hebben effect op cron spawning op servers die FastCGI en PHP-FPM versions 7.0.16 en daarboven draaien."
+msgstr "De Cron API is bijgewerkt met nieuwe functies voor returning data en bevat ook nieuwe filters voor het aanpassen van de cron storage. Andere wijzigingen hebben effect op cron spawning op servers die FastCGI en PHP-FPM versies 7.0.16 en daarboven draaien."
 
 #: wp-admin/about.php:121 wp-admin/about.php:129 wp-admin/about.php:137
 #: wp-admin/about.php:148
@@ -51,10 +51,6 @@ msgstr "<a href=\"%s\">Lees meer.</a>"
 msgid "Cron API"
 msgstr "Cron API"
 
-#: wp-admin/about.php:119
-msgid "5.1 introduces a new database table to store metadata associated with sites and allows for the storage of arbitrary site data relevant in a multisite / network context."
-msgstr "5.1 introduceert een nieuwe databasetabel om metadata op te slaan die geassocieerd is met sites en het mogelijk maakt om arbitraire site data op te slaan die relevant kan zijn in een multisite / netwerkcontext."
-
 #: wp-admin/about.php:117
 msgid "Multisite Metadata"
 msgstr "Multisite metagegevens"
@@ -62,6 +58,10 @@ msgstr "Multisite metagegevens"
 #: wp-admin/about.php:104
 msgid "Introduced in WordPress 5.0, the new block editor continues to improve. Most significantly, WordPress 5.1 includes solid performance improvements within the editor. The editor should feel a little quicker to start, and typing should feel smoother. Nevertheless, expect more performance improvements in the next releases."
 msgstr "De nieuwe blok editor die in WordPress 5.0 is geïntroduceerd is verder verbeterd. De grootste verbetering is de snelheid waarmee de editor nu werkt in WordPress 5.1. De editor zou nu iets sneller moeten opstarten en typen zou vloeiender moeten voelen. Los daarvan, in de komende versies zullen er meer snelheidsverbeteringen doorgevoerd worden."
+
+#: wp-admin/about.php:119
+msgid "5.1 introduces a new database table to store metadata associated with sites and allows for the storage of arbitrary site data relevant in a multisite / network context."
+msgstr "5.1 introduceert een nieuwe databasetabel om metagegevens op te slaan die geassocieerd is met sites en het mogelijk maakt om arbitraire site data op te slaan die relevant kan zijn in een multisite / netwerkcontext."
 
 #: wp-admin/about.php:91
 msgid "WordPress has detected your site is running an outdated version of PHP. You will see this notice on your dashboard with instructions for contacting your host."
@@ -7865,7 +7865,7 @@ msgstr "http://wordpress.org/news/"
 
 #: wp-admin/includes/dashboard.php:1342
 msgid "https://wordpress.org/news/feed/"
-msgstr "http://nl.wordpress.org/news/feed/"
+msgstr "https://nl.wordpress.org/news/feed/"
 
 #: wp-admin/options-discussion.php:73
 msgid "(Signup has been disabled. Only members of this site can comment.)"
