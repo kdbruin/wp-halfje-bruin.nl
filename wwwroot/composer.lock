@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f8882220afca8df05aa5be7092d635f",
+    "content-hash": "733c8de26b45144e2c122a2a56825b43",
     "packages": [
         {
             "name": "composer/installers",
@@ -601,6 +601,24 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/atomic-blocks/"
+        },
+        {
+            "name": "wpackagist-theme/clean-blocks",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/clean-blocks/",
+                "reference": "1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/clean-blocks.1.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/clean-blocks/"
         },
         {
             "name": "wpackagist-theme/gridsby",
