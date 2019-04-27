@@ -20,6 +20,12 @@
 - app/plugins/theme-check
 - app/plugins/wordpress-importer
 
+# unwanted themes
+- app/themes/gridsby
+- app/themes/halfje-bruin-gridsby
+- app/themes/twentynineteen
+- app/themes/unserstrap
+
 # generated files
 - .htaccess
 - app/backupwordpress-*-backups
