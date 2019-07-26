@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "70adae01bf6e2841a5066bcd240fddb9",
+    "content-hash": "9317ee2af5b92639bd71971c3c1a333d",
     "packages": [
         {
             "name": "composer/installers",
@@ -259,7 +259,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@git.home.lan:base/hb-plugin.git",
+                "url": "git@filevault.fritz.box:kdb/hb-plugin.git",
                 "reference": "2958306fe7ffd441f3395c00cbc93de9c2c9c087"
             },
             "require": {

@@ -15,7 +15,7 @@
         },
         {
           "type": "vcs",
-          "url": "git@git.home.lan:base/hb-plugin.git"
+          "url": "git@filevault.fritz.box:kdb/hb-plugin.git"
         }
     ],
     "config": {
