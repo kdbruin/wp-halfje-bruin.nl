@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.2.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-07-01 19:14:43+0000\n"
+"PO-Revision-Date: 2019-08-16 11:16:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -149,7 +149,7 @@ msgstr ""
 
 #: wp-includes/class-wp-recovery-mode-email-service.php:132
 msgid "Please contact your host for assistance with investigating this issue further."
-msgstr "Neem contact op met je host voor hulp bij het verder onderzoeken van dit probleem."
+msgstr "Contact opnemen met je host voor hulp bij het verder onderzoeken van dit probleem."
 
 #: wp-includes/class-wp-fatal-error-handler.php:173
 msgid "The site is experiencing technical difficulties. Please check your site admin email inbox for instructions."
@@ -172,12 +172,12 @@ msgstr "[%s] Logingegevens"
 #: wp-includes/media-template.php:485 wp-includes/media-template.php:596
 #: wp-includes/media.php:3675
 msgid "Move to Trash"
-msgstr "Verplaats naar prullenbak"
+msgstr "Verplaatsen naar prullenbak"
 
 #: wp-includes/media-template.php:483 wp-includes/media-template.php:594
 #: wp-includes/media.php:3676
 msgid "Restore from Trash"
-msgstr "Herstel uit prullenbak"
+msgstr "Uit prullenbak herstellen"
 
 #: wp-includes/wp-db.php:1131 wp-includes/wp-db.php:1676
 #: wp-includes/wp-db.php:1834
@@ -241,15 +241,15 @@ msgstr "Maximum aantal woorden in samenvatting"
 
 #: wp-includes/js/dist/block-library.js:19838
 msgid "Display excerpt"
-msgstr "Toon samenvatting"
+msgstr "Samenvatting tonen"
 
 #: wp-includes/js/dist/block-library.js:19834
 msgid "Display date"
-msgstr "Toon datum"
+msgstr "Datum tonen"
 
 #: wp-includes/js/dist/block-library.js:19830
 msgid "Display author"
-msgstr "Toon auteur"
+msgstr "Auteur tonen"
 
 #: wp-includes/js/dist/block-library.js:19817
 msgid "RSS Settings"
@@ -257,15 +257,15 @@ msgstr "RSS instellingen"
 
 #: wp-includes/js/dist/block-library.js:19789
 msgid "Edit RSS URL"
-msgstr "Bewerk RSS URL"
+msgstr "RSS-URL bewerken"
 
 #: wp-includes/js/dist/block-library.js:19784
 msgid "Use URL"
-msgstr "Gebruik URL"
+msgstr "URL gebruiken"
 
 #: wp-includes/js/dist/block-library.js:19773
 msgid "Enter URL here…"
-msgstr "Vul URL hier in..."
+msgstr "URL hier invullen..."
 
 #: wp-includes/js/dist/block-library.js:19640
 msgid "find"
@@ -347,11 +347,11 @@ msgstr "afbeelding %1$d van %2$d in galerij"
 
 #: wp-includes/js/dist/block-library.js:13248
 msgid "Edit gallery"
-msgstr "Bewerk galerij"
+msgstr "Galerij bewerken"
 
 #: wp-includes/js/dist/block-library.js:11594
 msgid "Display a legacy widget."
-msgstr "Toon een verouderde widget."
+msgstr "Een verouderde widget tonen."
 
 #: wp-includes/js/dist/block-library.js:11593
 msgid "Legacy Widget (Experimental)"
@@ -359,7 +359,7 @@ msgstr "Verouderde widget (experimenteel)"
 
 #: wp-includes/js/dist/block-library.js:11509
 msgid "Change widget"
-msgstr "Wijzig widget"
+msgstr "Widget wijzigen"
 
 #: wp-includes/js/dist/block-library.js:11495
 msgid "Legacy Widget"
@@ -452,7 +452,7 @@ msgstr "Blokbeheerder"
 
 #: wp-includes/js/dist/block-editor.js:18013
 msgid "Change block type or style"
-msgstr "Wijzig bloktype of stijl"
+msgstr "Bloktype of stijl wijzigen"
 
 #: wp-includes/js/dist/block-editor.js:17081
 #: wp-includes/js/dist/block-library.js:6537
@@ -479,7 +479,7 @@ msgstr "Meer mooiere tekst regelaars"
 
 #: wp-includes/js/dist/block-editor.js:9973
 msgid "Attempt Block Recovery"
-msgstr "Probeer blok-herstel"
+msgstr "Blok-herstel proberen"
 
 #: wp-includes/js/dist/editor.js:11861
 msgid "Search Terms"
@@ -491,7 +491,7 @@ msgstr "Plak aan de bovenkant van het blog"
 
 #: wp-includes/js/dist/editor.js:9434
 msgid "Exit the Editor"
-msgstr "Sluit de editor"
+msgstr "De editor sluiten"
 
 #: wp-includes/js/dist/components.js:32290
 msgid "Vertical Pos."
@@ -652,7 +652,7 @@ msgstr "De huidige afbeelding heeft geen alternatieve tekst. De bestandsnaam is:
 
 #: wp-includes/admin-bar.php:1070
 msgid "Exit Recovery Mode"
-msgstr "Sluit herstel mode"
+msgstr "Herstelmode sluiten"
 
 #. translators: %s: number of comments in moderation
 #: wp-includes/admin-bar.php:890
@@ -1171,11 +1171,11 @@ msgstr "Tabel-instellingen"
 
 #: wp-includes/js/dist/block-library.js:16635
 msgid "Edit table"
-msgstr "Bewerk tabel"
+msgstr "Tabel bewerken"
 
 #: wp-includes/js/dist/block-library.js:16626
 msgid "Create"
-msgstr "Maak"
+msgstr "Maken"
 
 #: wp-includes/js/dist/block-library.js:16619
 msgid "Row Count"

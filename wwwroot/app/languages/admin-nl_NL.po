@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.2.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-07-18 12:30:37+0000\n"
+"PO-Revision-Date: 2019-08-15 14:39:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2878,7 +2878,7 @@ msgstr "Noemenswaardige bijdragers"
 
 #: wp-admin/theme-editor.php:353
 msgid "If you decide to go ahead with direct edits anyway, use a file manager to create a copy with a new name and hang on to the original. That way, you can re-enable a functional version if something goes wrong."
-msgstr "Als je besluit om door te gaan met directe wijzigingen, gebruik een FTP programma of andere bestandsmanager om een kopie te maken met een nieuwe naam en hou het origineel bij de hand. Op die manier kan je een werkende versie herstellen als er iets fout gaat."
+msgstr "Als je besluit om door te gaan met directe wijzigingen, gebruik een FTP-programma of andere bestandsmanager om een kopie te maken met een nieuwe naam en hou het origineel bij de hand. Op die manier kan je een werkende versie herstellen als er iets fout gaat."
 
 #. translators: %s: link to documentation on child themes
 #: wp-admin/theme-editor.php:348
@@ -2946,7 +2946,7 @@ msgstr "We nemen privacy en transparantie erg serieus. Om meer te weten te komen
 
 #: wp-admin/freedoms.php:69
 msgid "From time to time, your WordPress site may send data to WordPress.org &#8212; including, but not limited to &#8212; the version of WordPress you are using, and a list of installed plugins and themes."
-msgstr "Van tijd tot tijd jouw WordPress site zal data versturen naar WordPress.org &#8212; inclusief, maar niet alleen &#8212; de versie van WordPress die je gebruikt en een lijst van geïnstalleerde plugins en thema's."
+msgstr "Van tijd tot tijd kan je WordPress site data versturen naar WordPress.org &#8212; inclusief, maar niet alleen &#8212; de versie van WordPress die je gebruikt en een lijst van geïnstalleerde plugins en thema's."
 
 #. translators: Attachment information. %s: Date the attachment was uploaded
 #: wp-admin/includes/meta-boxes.php:374
@@ -4756,7 +4756,7 @@ msgstr "Geen wachtende reacties"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:181
 msgid "Failed to initialize a SFTP subsystem session with the SSH2 Server %s"
-msgstr "Het is niet gelukt een SFTP sessie tot stand te brengen met de SSH2 server %s."
+msgstr "Het is niet gelukt een SFTP-sessie tot stand te brengen met de SSH2-server %s."
 
 #: wp-admin/includes/class-wp-comments-list-table.php:462
 msgctxt "column name"
@@ -9378,11 +9378,11 @@ msgstr "FTP/SSH Gebruikersnaam"
 
 #: wp-admin/includes/file.php:2076
 msgid "FTP/SSH Password"
-msgstr "FTP/SSH Wachtwoord"
+msgstr "FTP/SSH-wachtwoord"
 
 #: wp-admin/includes/file.php:2079
 msgid "FTP Username"
-msgstr "FTP Gebruikersnaam"
+msgstr "FTP-gebruikersnaam"
 
 #: wp-admin/includes/file.php:2080
 msgid "FTP Password"
