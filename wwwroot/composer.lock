@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "042491ba7b180c76337eeac73f7cfe0a",
+    "content-hash": "1bb62b9f5e7fc4fcb9b8e57e740bf63d",
     "packages": [
         {
             "name": "composer/installers",
@@ -372,15 +372,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
-                "reference": "tags/2.1.1"
+                "reference": "tags/2.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.2.1.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.2.1.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -390,15 +390,15 @@
         },
         {
             "name": "wpackagist-plugin/atomic-blocks",
-            "version": "2.0.2",
+            "version": "2.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/atomic-blocks/",
-                "reference": "tags/2.0.2"
+                "reference": "tags/2.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/atomic-blocks.2.0.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/atomic-blocks.2.1.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
