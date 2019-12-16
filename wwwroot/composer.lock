@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3c1f7f287039c5bea4b07966a1f4565",
+    "content-hash": "f156ecb17406f2f43c33e954565a2464",
     "packages": [
         {
             "name": "composer/installers",
@@ -130,20 +130,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.2.4",
+            "version": "5.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "33fca34d16818a8d893d374eecd5c8c46cab6e88"
+                "reference": "06834018a2c6ab3a778e7c1c1f278ccaf675235e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/33fca34d16818a8d893d374eecd5c8c46cab6e88",
-                "reference": "33fca34d16818a8d893d374eecd5c8c46cab6e88",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/06834018a2c6ab3a778e7c1c1f278ccaf675235e",
+                "reference": "06834018a2c6ab3a778e7c1c1f278ccaf675235e",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.2.4",
+                "johnpbloch/wordpress-core": "5.3.1",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.6.20"
             },
@@ -165,27 +165,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-10-14T20:47:31+00:00"
+            "time": "2019-12-12T21:46:44+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.2.4",
+            "version": "5.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "01530fea56649a4040971fc614baa546273d964c"
+                "reference": "9f8c4205f74c7c2a1e353add9c0c281ce8e3362b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/01530fea56649a4040971fc614baa546273d964c",
-                "reference": "01530fea56649a4040971fc614baa546273d964c",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/9f8c4205f74c7c2a1e353add9c0c281ce8e3362b",
+                "reference": "9f8c4205f74c7c2a1e353add9c0c281ce8e3362b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.2.4"
+                "wordpress/core-implementation": "5.3.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -205,7 +205,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-10-14T20:47:26+00:00"
+            "time": "2019-12-12T21:46:39+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -354,15 +354,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "5.8.5",
+            "version": "5.8.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/5.8.5"
+                "reference": "tags/5.8.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -372,15 +372,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg",
-            "version": "2.1.5",
+            "version": "2.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
-                "reference": "tags/2.1.5"
+                "reference": "tags/2.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.2.1.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.2.2.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -390,15 +390,15 @@
         },
         {
             "name": "wpackagist-plugin/atomic-blocks",
-            "version": "2.1.0",
+            "version": "2.3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/atomic-blocks/",
-                "reference": "tags/2.1.0"
+                "reference": "tags/2.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/atomic-blocks.2.1.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/atomic-blocks.2.3.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -498,7 +498,7 @@
         },
         {
             "name": "wpackagist-plugin/gdpr-cookie-compliance",
-            "version": "3.0.4",
+            "version": "4.0.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gdpr-cookie-compliance/",
@@ -506,7 +506,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gdpr-cookie-compliance.zip?timestamp=1571214137"
+                "url": "https://downloads.wordpress.org/plugin/gdpr-cookie-compliance.zip?timestamp=1576482668"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -516,7 +516,7 @@
         },
         {
             "name": "wpackagist-plugin/post-snippets",
-            "version": "3.0.11",
+            "version": "3.0.14",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/post-snippets/",
@@ -524,7 +524,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/post-snippets.zip?timestamp=1562053247"
+                "url": "https://downloads.wordpress.org/plugin/post-snippets.zip?timestamp=1574186700"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -570,15 +570,15 @@
         },
         {
             "name": "wpackagist-plugin/shortcodes-ultimate",
-            "version": "5.5.0",
+            "version": "5.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/shortcodes-ultimate/",
-                "reference": "tags/5.5.0"
+                "reference": "tags/5.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.5.5.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.5.6.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -606,15 +606,15 @@
         },
         {
             "name": "wpackagist-theme/clean-blocks",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/clean-blocks/",
-                "reference": "1.1.3"
+                "reference": "1.1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/clean-blocks.1.1.3.zip"
+                "url": "https://downloads.wordpress.org/theme/clean-blocks.1.1.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -680,16 +680,16 @@
     "packages-dev": [
         {
             "name": "mustache/mustache",
-            "version": "v2.12.0",
+            "version": "v2.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/mustache.php.git",
-                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e"
+                "reference": "e95c5a008c23d3151d59ea72484d4f72049ab7f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fe8fe72e9d580591854de404cc59a1b83ca4d19e",
-                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/e95c5a008c23d3151d59ea72484d4f72049ab7f4",
+                "reference": "e95c5a008c23d3151d59ea72484d4f72049ab7f4",
                 "shasum": ""
             },
             "require": {
@@ -722,7 +722,7 @@
                 "mustache",
                 "templating"
             ],
-            "time": "2017-07-11T12:54:05+00:00"
+            "time": "2019-11-23T21:40:31+00:00"
         },
         {
             "name": "rarst/laps",
@@ -773,7 +773,7 @@
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v2.8.50",
+            "version": "v2.8.52",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
@@ -858,15 +858,15 @@
         },
         {
             "name": "wpackagist-plugin/loco-translate",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/loco-translate/",
-                "reference": "tags/2.3.0"
+                "reference": "tags/2.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.3.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.3.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
