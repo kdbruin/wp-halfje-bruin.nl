@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.3.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-11-28 17:51:33+0000\n"
+"PO-Revision-Date: 2020-01-12 09:57:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3508,7 +3508,7 @@ msgstr "Waarschijnlijk gebruik van directe invoeging van %1$s om %2$s te gebruik
 
 #: wp-admin/includes/template.php:2125
 msgid "Customization Draft"
-msgstr "Conceptbewerking"
+msgstr "Concept"
 
 #. translators: %s: URL to the Customizer.
 #: wp-admin/includes/meta-boxes.php:269

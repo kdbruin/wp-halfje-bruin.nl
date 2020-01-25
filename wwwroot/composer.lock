@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "919cc0d4ac94e6d043dc3626f9c6ee46",
+    "content-hash": "77ac6879fc80fbc8c738cc91aad2dbcc",
     "packages": [
         {
             "name": "composer/installers",
@@ -372,15 +372,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg",
-            "version": "2.2.2",
+            "version": "2.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
-                "reference": "tags/2.2.2"
+                "reference": "tags/2.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.2.2.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.2.3.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -498,7 +498,7 @@
         },
         {
             "name": "wpackagist-plugin/gdpr-cookie-compliance",
-            "version": "4.0.2",
+            "version": "4.1.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gdpr-cookie-compliance/",
@@ -506,7 +506,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gdpr-cookie-compliance.zip?timestamp=1576482668"
+                "url": "https://downloads.wordpress.org/plugin/gdpr-cookie-compliance.zip?timestamp=1579687144"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -570,15 +570,15 @@
         },
         {
             "name": "wpackagist-plugin/shortcodes-ultimate",
-            "version": "5.6.1",
+            "version": "5.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/shortcodes-ultimate/",
-                "reference": "tags/5.6.1"
+                "reference": "tags/5.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.5.6.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.5.6.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -606,15 +606,15 @@
         },
         {
             "name": "wpackagist-theme/clean-blocks",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/clean-blocks/",
-                "reference": "1.1.4"
+                "reference": "1.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/clean-blocks.1.1.4.zip"
+                "url": "https://downloads.wordpress.org/theme/clean-blocks.1.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
